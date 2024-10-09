@@ -1,2 +1,2 @@
-# my-portfolio
-My portfolio website where I showcase some of my work
+# jespers-portfolio
+My portfolio website where I showcase my work
