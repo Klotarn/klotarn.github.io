@@ -7,10 +7,10 @@
         <title>Jesper's Portfolio</title>
     </head>
     <body>
-        <div class="container flex-row flex-col-md">
+        <div id="main-container" class="container container-main flex-row flex-col-md">
             <div id="primary-container" class="col bg-white order-1 order-2-md">
-                <section id="education-section" class="container-child">
-                    <h2>{{language.education-section-title}}</h2>
+                <section id="education-section" class="p-1">
+                    <h2 class="header">{{language.education-section-title}}</h2>
                     {{#each general.educations}}
                         <div class="block education-block">
                             <div class="block-left-content">
@@ -21,8 +21,8 @@
                         </div>
                     {{/each}}
                 </section>
-                <section id="work-experience-section" class="container-child">
-                    <h2>{{language.work-experience-section-title}}</h2>
+                <section id="work-experience-section" class="px-1 pb-1">
+                    <h2 class="header">{{language.work-experience-section-title}}</h2>
                     {{#each general.work-experiences}}
                         <div class="block work-experience-block">
                             <div class="block-left-content">
@@ -33,8 +33,8 @@
                         </div>
                     {{/each}}
                 </section>
-                <section id="projects-section" class="container-child">
-                    <h2>{{language.projects-section-title}}</h2>
+                <section id="projects-section" class="px-1 pb-1">
+                    <h2 class="header">{{language.projects-section-title}}</h2>
                     {{#each general.projects}}
                         <div class="block project-block">
                             <div class="block-left-content">
@@ -48,22 +48,22 @@
                     {{/each}}
                 </section>
             </div>
-            <div id="secondary-container" class="container align-center flex-col flex-row-md bg-primary-subtle text-color-light order-2 order-1-md">
-                <section class="container-child bg-primary">
-                    <h1>{{general.my-name}}</h1>
+            <div id="secondary-container" class="container align-text-center flex-col flex-row-md bg-primary-subtle text-color-light order-2 order-1-md">
+                <section class="p-1 bg-primary">
+                    <h1 class="header">{{general.my-name}}</h1>
                     {{#each language.my-titles}}
                         <p>{{this.title}}</p>
                     {{/each}}
                 </section>
-                <div class="container-child container flex-col flex-row-md flex-col-sm">
+                <div class="p-1 container flex-col flex-col-md align-items-center-md">
                     <section id="programming-languages-section">
-                        <h3>{{language.programming-languages-section-title}}</h3>
+                        <h3 class="header">{{language.programming-languages-section-title}}</h3>
                         {{#each general.programming-languages}}
                             <p>{{this.programming-language}}</p>
                         {{/each}}
                     </section>
-                    <section id="languages-section">
-                        <h3>{{language.language-section-title}}</h3>
+                    <section id="languages-section" class="mt-1">
+                        <h3 class="header">{{language.language-section-title}}</h3>
                         {{#each general.languages}}
                             <p>{{translate @root.language this.language-name}}
                                 -
