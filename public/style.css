@@ -301,9 +301,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .align-items-center-md {
-        align-items: center;
-    }
     .container-main {
         width: 540px;
     }
