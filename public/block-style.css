@@ -1,0 +1,29 @@
+.block {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 0.5rem;
+}
+
+.block-left-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.block-title a {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.block-title a:hover {
+    color: #777;
+}
+
+/* .block-info {
+    align-self: flex-start;
+} */
+
+.block-date {
+    /* align-self: end; */
+    text-align: right;
+}

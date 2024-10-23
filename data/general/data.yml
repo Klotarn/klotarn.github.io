@@ -1,0 +1,70 @@
+my-name: "Jesper Cejie"
+
+# prettier-ignore
+educations:
+  - education-name: "technical-programme"
+    school-name: "NTI-Gymnasiet Uppsala"
+    date: "2020-2023"
+  - education-name: "international-bartender-course"
+    school-name: "European Bartender School"
+    date: "2024"
+  - education-name: "technical-college-graduate"
+    school-name: "NTI-Gymnasiet Uppsala"
+    date: "2024-2025"
+
+# prettier-ignore
+work-experiences:
+  - company-name: "Hambergs Catering AB"
+    role: "hambergs-catering-role"
+    date: "2022-2024"
+  - company-name: "Flustret"
+    role: "flustret-role"
+    date: "2024"
+  - company-name: "Clarion Hotel Gillet"
+    role: "clarion-hotel-gillet-role"
+    date: "2024"
+  - company-name: "Skatterättsligt Forum"
+    role: "skatterattsligt-forum-role"
+    date: "2023-2024"
+
+# prettier-ignore
+projects:
+  - project-name: "Il Forno Magico"
+    description: il-forno-magico-description
+    date: "2024"
+    project-url: "https://github.com/NTIG-Uppsala/TE4-JITS-Pizzeria"
+  - project-name: "Florista"
+    description: florista-description
+    date: "2024"
+    project-url: "https://github.com/NTIG-Uppsala/J.CAD-Florist"
+  - project-name: "NTB Biluthyrning"
+    description: ntb-biluthyrning-description
+    date: "2024"
+    project-url: "https://github.com/NTIG-Uppsala/TE4-VALE-Biluthyrning"
+  - project-name: "Winterland"
+    description: winterland-description
+    date: "2019-2024"
+    project-url: "this-url-does-not-yet-exist"
+  - project-name: "Bredbandsbotten"
+    description: bredbandsbotten-description
+    date: "2022"
+    project-url: "this-url-does-not-yet-exist"
+
+# prettier-ignore
+programming-languages:
+  - programming-language: "HTML"
+  - programming-language: "CSS"
+  - programming-language: "JavaScript"
+  - programming-language: "Python"
+  - programming-language: "C#"
+
+# prettier-ignore
+languages:
+  - language-name: "swedish-name"
+    proficiency: "native"
+  - language-name: "english-name"
+    proficiency: "fluent"
+  - language-name: "spanish-name"
+    proficiency: "beginner"
+  - language-name: "japanese-name"
+    proficiency: "beginner"

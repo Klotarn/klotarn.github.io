@@ -1,0 +1,134 @@
+:root {
+    --bg-primary: #007d3c;
+    --bg-primary-subtle: rgb(77, 192, 133);
+    --text-color-light: #ddffde;
+    --text-color-light-subtle: hsl(141, 73%, 80%);
+
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: balance;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(233, 233, 233);
+}
+
+.align-center {
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: var(--bg-primary);
+    color: var(--text-color-light);
+}
+
+.bg-primary-subtle {
+    background-color: var(--bg-primary-subtle);
+    color: var(--text-color-light);
+}
+
+.bg-primary-subtle p {
+    color: var(--text-color-light-subtle);
+}
+
+.bg-primary p {
+    color: var(--text-color-light-subtle);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.text-color-light {
+    color: var(--text-color-light);
+}
+
+.text-color-light-subtle {
+    color: var(--text-color-light-subtle);
+}
+
+.container {
+    display: flex;
+}
+
+.container-child {
+    padding: 1rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+@media screen and (max-width: 1400px) {
+    .flex-col-xxl {
+        flex-direction: column;
+    }
+    .flex-row-xxl {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .flex-col-xl {
+        flex-direction: column;
+    }
+    .flex-row-xl {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .flex-col-lg {
+        flex-direction: column;
+    }
+    .flex-row-lg {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .order-1-md {
+        order: 1;
+    }
+    .order-2-md {
+        order: 2;
+    }
+    .flex-col-md {
+        flex-direction: column;
+    }
+    .flex-row-md {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .flex-col-sm {
+        flex-direction: column;
+    }
+    .flex-row-sm {
+        flex-direction: row;
+    }
+}

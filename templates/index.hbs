@@ -1,0 +1,77 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="/public/style.css" />
+        <link rel="stylesheet" type="text/css" href="/public/block-style.css" />
+        <title>Jesper's Portfolio</title>
+    </head>
+    <body>
+        <div class="container flex-row flex-col-md">
+            <div id="primary-container" class="col bg-white order-1 order-2-md">
+                <section id="education-section" class="container-child">
+                    <h2>{{language.education-section-title}}</h2>
+                    {{#each general.educations}}
+                        <div class="block education-block">
+                            <div class="block-left-content">
+                                <strong class="block-title education-name">{{translate @root.language this.education-name}}</strong>
+                                <p class="block-info school-name">{{this.school-name}}</p>
+                            </div>
+                            <p class="block-date">{{this.date}}</p>
+                        </div>
+                    {{/each}}
+                </section>
+                <section id="work-experience-section" class="container-child">
+                    <h2>{{language.work-experience-section-title}}</h2>
+                    {{#each general.work-experiences}}
+                        <div class="block work-experience-block">
+                            <div class="block-left-content">
+                                <strong class="block-title work-experience-company-name">{{this.company-name}}</strong>
+                                <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
+                            </div>
+                            <p class="block-date">{{this.date}}</p>
+                        </div>
+                    {{/each}}
+                </section>
+                <section id="projects-section" class="container-child">
+                    <h2>{{language.projects-section-title}}</h2>
+                    {{#each general.projects}}
+                        <div class="block project-block">
+                            <div class="block-left-content">
+                                <strong class="block-title project-name">
+                                    <a href="{{this.project-url}}" target="_blank">{{this.project-name}}</a>
+                                </strong>
+                                <p class="block-info project-description">{{translate @root.language this.description}}</p>
+                            </div>
+                            <p class="block-date">{{this.date}}</p>
+                        </div>
+                    {{/each}}
+                </section>
+            </div>
+            <div id="secondary-container" class="container align-center flex-col flex-row-md bg-primary-subtle text-color-light order-2 order-1-md">
+                <section class="container-child bg-primary">
+                    <h1>{{general.my-name}}</h1>
+                    {{#each language.my-titles}}
+                        <p>{{this.title}}</p>
+                    {{/each}}
+                </section>
+                <div class="container-child container flex-col flex-row-md flex-col-sm">
+                    <section id="programming-languages-section">
+                        <h3>{{language.programming-languages-section-title}}</h3>
+                        {{#each general.programming-languages}}
+                            <p>{{this.programming-language}}</p>
+                        {{/each}}
+                    </section>
+                    <section id="languages-section">
+                        <h3>{{language.language-section-title}}</h3>
+                        {{#each general.languages}}
+                            <p>{{translate @root.language this.language-name}}
+                                -
+                                {{translate @root.language this.proficiency}}</p>
+                        {{/each}}
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

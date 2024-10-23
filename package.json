@@ -1,5 +1,16 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.4.14"
+  "name": "jespers-portfolio",
+  "version": "1.0.0",
+  "description": "* Create a `scripts/` folder from root and create a file in this folder named `hbs-compiler.js`. This file will compile .hbs-files to .html-files that will be displayed as a website. \r * Download and install Node.js\r * Open a terminal to this directory and enter the following command:\r ```bash\r npm init\r ```\r * Follow the instructions.\r     * Enter a name for your project or press enter if you are fine with the one that is shown.\r     * Do the same with the project version.\r     * Type a description for your project or press enter if you want to skip this.\r     * Entry point is irrelevant for now and can be changed later, press enter to skip this.\r     * Also skip \"test command\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/hbs-compiler.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "js-yaml": "^4.1.0"
   }
 }

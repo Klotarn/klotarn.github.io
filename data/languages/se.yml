@@ -1,0 +1,45 @@
+projects-section-title: "Projekt"
+work-experience-section-title: "Arbetslivserfarenhet"
+education-section-title: "Utbildning"
+programming-languages-section-title: "Programmeringsspråk"
+language-section-title: "Språk"
+
+# education
+technical-programme: "Tekinkprogrammet på gymnasiet"
+international-bartender-course: "4 veckors internationell bartenderkurs"
+technical-college-graduate: "Gymnasieingenjör"
+
+# work experiences
+hambergs-catering-role: "Servitör, Bartender, Hovmästare"
+flustret-role: "Bartender"
+clarion-hotel-gillet-role: "Servitör, Bartender"
+skatterattsligt-forum-role: "Webbutvecklare"
+
+# projects
+il-forno-magico-description: "En hemsida för en påhittad napoletansk pizzeria."
+florista-description: "En hemsida för en påhittad florist."
+ntb-biluthyrning-description: "En hemsida för ett påhittat biluthyrningsföretag."
+winterland-description: >
+    Ett spel gjort i Unity. Detta är ett ofärdigt projekt
+    som jag ibland arbetar på under min fritid.
+bredbandsbotten-description: >
+    Ett program skrivet i Python som mäter internetanslutningens
+    hastighet under en period och sparar resultatet i en excel-
+    eller csv-fil.
+
+# prettier-ignore
+my-titles:
+  - title: "Webbutvecklare"
+  - title: "Mjukvaruutvecklare"
+  - title: "Hovmästare"
+  - title: "Bartender"
+  - title: "Servitör"
+
+# languages
+swedish-name: "Svenska"
+english-name: "Engelska"
+spanish-name: "Spanska"
+japanese-name: "Japanska"
+native: "Modersmål"
+fluent: "Flytande"
+beginner: "Nybörjare"
