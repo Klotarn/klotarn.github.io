@@ -11,8 +11,6 @@ function convertYamlToJs(yamlFileFolder) {
 }
 
 const translate = (lang, key) => {
-    // console.log("Translate function called");
-    // console.log(lang, key);
     return lang[key] || key;
 };
 
@@ -36,20 +34,8 @@ if (!fs.existsSync(outputFolder)) {
 
 // Convert YAML to JS-Object
 const generalDataObj = convertYamlToJs(generalDataFolder); // Initialize an empty object to store the data
-// fs.readdirSync(generalDataFolder).forEach(file => {
-//     const fileContents = fs.readFileSync(`${generalDataFolder}${file}`, 'utf8');
-//     const data = yaml.load(fileContents);
-//     const [dataFile] = file.split('.'); // Extract the location from the file name
-//     generalDataObj[dataFile] = data;
-// });
 
 const languageDataObj = convertYamlToJs(languageDataFolder); // Initialize an empty object to store the data
-// fs.readdirSync(languageDataFolder).forEach(file => {
-//     const fileContents = fs.readFileSync(`${languageDataFolder}${file}`, 'utf8');
-//     const data = yaml.load(fileContents);
-//     const [dataFile] = file.split('.'); // Extract the location from the file name
-//     languageDataObj[dataFile] = data;
-// });
 
 console.log(generalDataObj);
 console.log(languageDataObj);
