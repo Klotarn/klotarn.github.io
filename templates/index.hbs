@@ -4,12 +4,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="/css/style.css" />
         <link rel="stylesheet" type="text/css" href="/css/block-style.css" />
-        <title>{{site-title}}</title>
+        <title>{{language.site-title}}</title>
     </head>
     <body>
         <div id="main-container" class="container container-main justify-content-center flex-row flex-col-md mt-2">
             <div id="primary-container" class="col order-1 order-2-md">
-                <section id="education-section" class="bg-white mb-1 p-1">
+                <section id="education-section" class="bg-white p-1">
                     <h2 class="header">{{language.education-section-title}}</h2>
                     {{#each general.educations}}
                         <div class="block education-block">
@@ -21,7 +21,7 @@
                         </div>
                     {{/each}}
                 </section>
-                <section id="work-experience-section" class="bg-white my-1 p-1">
+                <section id="work-experience-section" class="bg-white mt-1 p-1">
                     <h2 class="header">{{language.work-experience-section-title}}</h2>
                     {{#each general.work-experiences}}
                         <div class="block work-experience-block">
@@ -33,17 +33,24 @@
                         </div>
                     {{/each}}
                 </section>
-                <section id="projects-section" class="bg-white my-1 p-1">
+                <section id="projects-section" class="bg-white mt-1 p-1">
                     <h2 class="header">{{language.projects-section-title}}</h2>
                     {{#each general.projects}}
                         <div class="block project-block">
-                            <div class="block-left-content">
-                                <strong class="block-title project-name">
-                                    <a href="{{this.project-url}}" target="_blank">{{this.project-name}}</a>
-                                </strong>
-                                <p class="block-info project-description">{{translate @root.language this.description}}</p>
+                            <div class="block-top-content">
+                                <div class="block-left-content">
+                                    <strong class="block-title project-name">
+                                        <a href="{{this.project-url}}" target="_blank">{{this.project-name}}</a>
+                                    </strong>
+                                    <p class="block-info project-description">{{translate @root.language this.description}}</p>
+                                </div>
+                                <p class="block-date">{{this.date}}</p>
                             </div>
-                            <p class="block-date">{{this.date}}</p>
+                            <div class="block-images">
+                            {{#each this.images}}
+                                <img src="{{this.image-url}}" alt="{{this.image-alt}}" class="block-image" />
+                            {{/each}}
+                            </div>
                         </div>
                     {{/each}}
                 </section>
