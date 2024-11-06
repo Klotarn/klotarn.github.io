@@ -35,23 +35,31 @@ projects:
     project-url: "https://github.com/NTIG-Uppsala/Classroom-Seating-Planner"
     images:
       - image-url: "../images/bordsplaceringsgeneratorn.jpg"
+        image-thumbnail-url: "../images/bordsplaceringsgeneratorn-sm.jpg"
         image-alt: "Bordsplaceringsgeneratorn"
+        image-set: "bordsplaceringsgeneratorn-images"
   - project-name: "Florista"
     description: florista-description
     date: "2024"
     project-url: "https://florista.ntig.dev/public/se/"
     images:
       - image-url: "../images/florista-1.jpg"
+        image-thumbnail-url: "../images/florista-1-sm.jpg"
         image-alt: "Florista Start View"
+        image-set: "florista-images"
       - image-url: "../images/florista-2.jpg"
+        image-thumbnail-url: "../images/florista-2-sm.jpg"
         image-alt: "Florista Products Section"
+        image-set: "florista-images"
   - project-name: "Il Forno Magico"
     description: il-forno-magico-description
     date: "2024"
     project-url: "https://ilfornomagico.ntig.dev/"
     images:
       - image-url: "../images/il-forno-magico.jpg"
+        image-thumbnail-url: "../images/il-forno-magico-sm.jpg"
         image-alt: "Il Forno Magico Start View"
+        image-set: "il-forno-magico-images"
   - project-name: "NTB Biluthyrning"
     description: ntb-biluthyrning-description
     date: "2024"
@@ -62,9 +70,13 @@ projects:
     project-url: "https://github.com/Klotarn/Winterland"
     images:
       - image-url: "../images/winterland-1.jpg"
+        image-thumbnail-url: "../images/winterland-1-sm.jpg"
         image-alt: "Winterland Level 1"
+        image-set: "winterland-images"
       - image-url: "../images/winterland-2.jpg"
+        image-thumbnail-url: "../images/winterland-2-sm.jpg"
         image-alt: "Winterland Level 2"
+        image-set: "winterland-images"
 
   - project-name: "Bredbandsbotten"
     description: bredbandsbotten-description

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     /* align-items: center; */
-    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .block-left-content {
@@ -38,8 +38,10 @@
 }
 
 .block-image {
-    width: 45%;
+    width: 100%;
     height: auto;
+    /* width: auto; */
+    /* height: 40%; */
     /* margin: 1rem; */
     margin-top: 0.5rem;
     margin-right: 0.5rem;
@@ -48,6 +50,12 @@
 .block-images {
     display: flex;
     flex-direction: row;
+    /* align-items: start; */
+    align-content: start;
     justify-content: space-evenly;
     margin-top: 0.5rem;
+}
+
+.block-images a {
+    width: 45%;
 }
