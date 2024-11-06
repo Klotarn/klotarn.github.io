@@ -24,10 +24,6 @@ body {
     background-color: rgb(233, 233, 233);
 }
 
-.align-text-center {
-    text-align: center;
-}
-
 .bg-primary {
     background-color: var(--bg-primary);
     color: var(--text-color-light);
@@ -60,6 +56,15 @@ body {
     width: 1320px;
     margin: 0 auto;
 }
+
+/* centering classes */
+.align-text-center {
+    text-align: center;
+}
+.justify-content-center {
+    justify-content: center;
+}
+/*  */
 
 /* flex-direction classes */
 .flex-col {
