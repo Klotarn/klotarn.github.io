@@ -13,24 +13,30 @@
                 <section id="education-section" class="bg-white p-1">
                     <h2 class="header">{{language.education-section-title}}</h2>
                     {{#each general.educations}}
+                        <hr />
                         <div class="block education-block">
-                            <div class="block-left-content">
-                                <strong class="block-title education-name">{{translate @root.language this.education-name}}</strong>
-                                <p class="block-info school-name">{{this.school-name}}</p>
+                            <div class="block-top-content">
+                                <div class="block-left-content">
+                                    <strong class="block-title education-name">{{translate @root.language this.education-name}}</strong>
+                                    <p class="block-info school-name">{{this.school-name}}</p>
+                                </div>
+                                <p class="block-date">{{this.date}}</p>
                             </div>
-                            <p class="block-date">{{this.date}}</p>
                         </div>
                     {{/each}}
                 </section>
                 <section id="work-experience-section" class="bg-white mt-1 p-1">
                     <h2 class="header">{{language.work-experience-section-title}}</h2>
                     {{#each general.work-experiences}}
+                        <hr />
                         <div class="block work-experience-block">
-                            <div class="block-left-content">
-                                <strong class="block-title work-experience-company-name">{{this.company-name}}</strong>
-                                <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
+                            <div class="block-top-content">
+                                <div class="block-left-content">
+                                    <strong class="block-title work-experience-company-name">{{this.company-name}}</strong>
+                                    <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
+                                </div>
+                                <p class="block-date">{{this.date}}</p>
                             </div>
-                            <p class="block-date">{{this.date}}</p>
                         </div>
                     {{/each}}
                 </section>
