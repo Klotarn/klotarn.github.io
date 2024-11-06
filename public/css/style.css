@@ -428,6 +428,10 @@ body {
     .flex-row-md {
         flex-direction: row;
     }
+
+    .mt-1-md {
+        margin-top: 1rem;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -438,6 +442,19 @@ body {
         flex-direction: column;
     }
     .flex-row-sm {
+        flex-direction: row;
+    }
+
+    .mt-0-sm {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 406px) {
+    .flex-col-xs {
+        flex-direction: column;
+    }
+    .flex-row-xs {
         flex-direction: row;
     }
 }
