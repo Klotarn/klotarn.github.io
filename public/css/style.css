@@ -28,20 +28,16 @@ body {
     background-color: var(--bg-primary);
     color: var(--text-color-light);
 }
-
 .bg-primary-subtle {
     background-color: var(--bg-primary-subtle);
     color: var(--text-color-light);
 }
-
 .bg-primary-subtle p {
     color: var(--text-color-light-subtle);
 }
-
 .bg-primary p {
     color: var(--text-color-light-subtle);
 }
-
 .bg-white {
     background-color: #fff;
 }
