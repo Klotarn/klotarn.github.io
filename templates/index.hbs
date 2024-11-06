@@ -2,14 +2,14 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="/style.css" />
-        <link rel="stylesheet" type="text/css" href="/block-style.css" />
-        <title>Jesper's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/css/block-style.css" />
+        <title>{{site-title}}</title>
     </head>
     <body>
-        <div id="main-container" class="container container-main justify-content-center flex-row flex-col-md">
-            <div id="primary-container" class="col bg-white order-1 order-2-md">
-                <section id="education-section" class="p-1">
+        <div id="main-container" class="container container-main justify-content-center flex-row flex-col-md mt-2">
+            <div id="primary-container" class="col order-1 order-2-md">
+                <section id="education-section" class="bg-white mb-1 p-1">
                     <h2 class="header">{{language.education-section-title}}</h2>
                     {{#each general.educations}}
                         <div class="block education-block">
@@ -21,7 +21,7 @@
                         </div>
                     {{/each}}
                 </section>
-                <section id="work-experience-section" class="px-1 pb-1">
+                <section id="work-experience-section" class="bg-white my-1 p-1">
                     <h2 class="header">{{language.work-experience-section-title}}</h2>
                     {{#each general.work-experiences}}
                         <div class="block work-experience-block">
@@ -33,7 +33,7 @@
                         </div>
                     {{/each}}
                 </section>
-                <section id="projects-section" class="px-1 pb-1">
+                <section id="projects-section" class="bg-white my-1 p-1">
                     <h2 class="header">{{language.projects-section-title}}</h2>
                     {{#each general.projects}}
                         <div class="block project-block">
