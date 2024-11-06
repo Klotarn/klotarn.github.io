@@ -1,3 +1,4 @@
+site-title: "Jespers portfolio"
 projects-section-title: "Projekt"
 work-experience-section-title: "Arbetslivserfarenhet"
 education-section-title: "Utbildning"
@@ -16,6 +17,8 @@ clarion-hotel-gillet-role: "Servitör, Bartender"
 skatterattsligt-forum-role: "Webbutvecklare"
 
 # projects
+bordsplaceringsgeneratorn-description: >
+    Ett verktyg för lärare för att generera bordsplaceringar för klasser.
 il-forno-magico-description: "En hemsida för en påhittad napoletansk pizzeria."
 florista-description: "En hemsida för en påhittad florist."
 ntb-biluthyrning-description: "En hemsida för ett påhittat biluthyrningsföretag."

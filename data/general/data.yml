@@ -29,14 +29,18 @@ work-experiences:
 
 # prettier-ignore
 projects:
-  - project-name: "Il Forno Magico"
-    description: il-forno-magico-description
+  - project-name: "Bordsplaceringsgeneratorn"
+    description: bordsplaceringsgeneratorn-description
     date: "2024"
-    project-url: "https://github.com/NTIG-Uppsala/TE4-JITS-Pizzeria"
+    project-url: "https://github.com/NTIG-Uppsala/Classroom-Seating-Planner"
   - project-name: "Florista"
     description: florista-description
     date: "2024"
-    project-url: "https://github.com/NTIG-Uppsala/J.CAD-Florist"
+    project-url: "https://florista.ntig.dev/public/se/"
+  - project-name: "Il Forno Magico"
+    description: il-forno-magico-description
+    date: "2024"
+    project-url: "https://ilfornomagico.ntig.dev/"
   - project-name: "NTB Biluthyrning"
     description: ntb-biluthyrning-description
     date: "2024"
@@ -44,7 +48,7 @@ projects:
   - project-name: "Winterland"
     description: winterland-description
     date: "2019-2024"
-    project-url: "this-url-does-not-yet-exist"
+    project-url: "https://github.com/Klotarn/Winterland"
   - project-name: "Bredbandsbotten"
     description: bredbandsbotten-description
     date: "2022"
