@@ -125,6 +125,10 @@ skills:
   - skill-name: "Selenium"
   - skill-name: "Playwright"
   - translated-skill-name: automatic-testing
+  - skill-name: "WPF"
+  - translated-skill-name: agile-programming
+  - skill-name: "Scrum"
+  
 
 # prettier-ignore
 languages:
