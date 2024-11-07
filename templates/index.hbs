@@ -1,97 +1,108 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="../css/style.css" />
-        <link rel="stylesheet" type="text/css" href="../css/block-style.css" />
-        <link rel="stylesheet" type="text/css" href="../css/lightbox.css" />
-        <title>{{language.site-title}}</title>
-    </head>
-    <body>
-        <div id="main-container" class="container container-main justify-content-center flex-row flex-col-md mt-2 mt-1-md mt-0-sm">
-            <div id="primary-container" class="col order-1 order-2-md">
-                <section id="education-section" class="bg-white p-1">
-                    <h2 class="header">{{language.education-section-title}}</h2>
-                    {{#each general.educations}}
-                        <hr />
-                        <div class="block education-block">
-                            <div class="block-top-content">
-                                <div class="block-left-content">
-                                    <strong class="block-title education-name">{{translate @root.language this.education-name}}</strong>
-                                    <p class="block-info school-name">{{this.school-name}}</p>
-                                </div>
-                                <p class="block-date">{{this.date}}</p>
-                            </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/block-style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/lightbox.css" />
+    <title>{{language.site-title}}</title>
+</head>
+
+<body>
+    <div id="main-container"
+        class="container container-main justify-content-center flex-row flex-col-md mt-2 mt-1-md mt-0-sm">
+        <div id="primary-container" class="col order-1 order-2-md">
+            <section id="education-section" class="bg-white p-1">
+                <h2 class="header">{{language.education-section-title}}</h2>
+                {{#each general.educations}}
+                <hr />
+                <div class="block education-block">
+                    <div class="block-top-content">
+                        <div class="block-left-content">
+                            <strong class="block-title education-name">{{translate @root.language
+                                this.education-name}}</strong>
+                            <p class="block-info school-name">{{this.school-name}}</p>
                         </div>
-                    {{/each}}
-                </section>
-                <section id="work-experience-section" class="bg-white mt-1 p-1">
-                    <h2 class="header">{{language.work-experience-section-title}}</h2>
-                    {{#each general.work-experiences}}
-                        <hr />
-                        <div class="block work-experience-block">
-                            <div class="block-top-content">
-                                <div class="block-left-content">
-                                    <strong class="block-title work-experience-company-name">{{this.company-name}}</strong>
-                                    <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
-                                </div>
-                                <p class="block-date">{{this.date}}</p>
-                            </div>
-                        </div>
-                    {{/each}}
-                </section>
-                <section id="projects-section" class="bg-white mt-1 p-1">
-                    <h2 class="header">{{language.projects-section-title}}</h2>
-                    {{#each general.projects}}
-                        <hr />
-                        <div class="block project-block">
-                            <div class="block-top-content">
-                                <div class="block-left-content">
-                                    <strong class="block-title project-name">
-                                        <a href="{{this.project-url}}" target="_blank">{{this.project-name}}</a>
-                                    </strong>
-                                    <p class="block-info project-description">{{translate @root.language this.description}}</p>
-                                </div>
-                                <p class="block-date">{{this.date}}</p>
-                            </div>
-                            <div class="block-images">
-                                {{#each this.images}}
-                                    <a class="block-image-link" href="{{this.image-url}}" data-lightbox="{{this.image-set}}" data-title="{{this.image-alt}}"><img
-                                            src="{{this.image-thumbnail-url}}"
-                                            alt="{{this.image-alt}}"
-                                            class="block-image"
-                                        /></a>
-                                {{/each}}
-                            </div>
-                        </div>
-                    {{/each}}
-                </section>
-            </div>
-            <div id="secondary-container" class="container align-text-center flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light order-2 order-1-md">
-                <section class="p-1 bg-primary">
-                    <h1 class="header">{{general.my-name}}</h1>
-                    {{#each language.my-titles}}
-                        <p>{{this.title}}</p>
-                    {{/each}}
-                </section>
-                <div class="p-1 container flex-col flex-col-md">
-                    <section id="programming-languages-section">
-                        <h3 class="header">{{language.programming-languages-section-title}}</h3>
-                        {{#each general.programming-languages}}
-                            <p>{{this.programming-language}}</p>
-                        {{/each}}
-                    </section>
-                    <section id="languages-section" class="mt-1">
-                        <h3 class="header">{{language.language-section-title}}</h3>
-                        {{#each general.languages}}
-                            <p>{{translate @root.language this.language-name}}
-                                -
-                                {{translate @root.language this.proficiency}}</p>
-                        {{/each}}
-                    </section>
+                        <p class="block-date">{{this.date}}</p>
+                    </div>
                 </div>
+                {{/each}}
+            </section>
+            <section id="work-experience-section" class="bg-white mt-1 p-1">
+                <h2 class="header">{{language.work-experience-section-title}}</h2>
+                {{#each general.work-experiences}}
+                <hr />
+                <div class="block work-experience-block">
+                    <div class="block-top-content">
+                        <div class="block-left-content">
+                            <strong class="block-title work-experience-company-name">{{this.company-name}}</strong>
+                            <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
+                        </div>
+                        <p class="block-date">{{this.date}}</p>
+                    </div>
+                </div>
+                {{/each}}
+            </section>
+            <section id="projects-section" class="bg-white mt-1 p-1">
+                <h2 class="header">{{language.projects-section-title}}</h2>
+                {{#each general.projects}}
+                <hr />
+                <div class="block project-block">
+                    <div class="block-top-content">
+                        <div class="block-left-content">
+                            <div class="flex-row justify-content-center">
+                                <strong class="block-title project-name">{{this.project-name}}</strong>
+                                <div class="block-links">
+                                    {{#each this.links}}
+                                    <a href="{{this.link-url}}" target="_blank" class="block-link">[{{translate
+                                        @root.language
+                                        this.link-text}}]</a>
+                                    {{/each}}
+                                </div>
+                            </div>
+                            <p class="block-info project-description">{{translate @root.language this.description}}</p>
+                        </div>
+                        <p class="block-date">{{this.date}}</p>
+                    </div>
+                    <div class="block-images">
+                        {{#each this.images}}
+                        <a class="block-image-link" href="{{this.image-url}}" data-lightbox="{{this.image-set}}"
+                            data-title="{{this.image-alt}}"><img src="{{this.image-thumbnail-url}}"
+                                alt="{{this.image-alt}}" class="block-image" /></a>
+                        {{/each}}
+                    </div>
+                </div>
+                {{/each}}
+            </section>
+        </div>
+        <div id="secondary-container"
+            class="container align-text-center flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light order-2 order-1-md">
+            <section class="p-1 bg-primary">
+                <h1 class="header">{{general.my-name}}</h1>
+                {{#each language.my-titles}}
+                <p>{{this.title}}</p>
+                {{/each}}
+            </section>
+            <div class="p-1 container flex-col flex-col-md">
+                <section id="programming-languages-section">
+                    <h3 class="header">{{language.programming-languages-section-title}}</h3>
+                    {{#each general.programming-languages}}
+                    <p>{{this.programming-language}}</p>
+                    {{/each}}
+                </section>
+                <section id="languages-section" class="mt-1">
+                    <h3 class="header">{{language.language-section-title}}</h3>
+                    {{#each general.languages}}
+                    <p>{{translate @root.language this.language-name}}
+                        -
+                        {{translate @root.language this.proficiency}}</p>
+                    {{/each}}
+                </section>
             </div>
         </div>
-        <script src="../js/lightbox-plus-jquery.js"></script>
-    </body>
+    </div>
+    <script src="../js/lightbox-plus-jquery.js"></script>
+</body>
+
 </html>

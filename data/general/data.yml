@@ -2,15 +2,15 @@ my-name: "Jesper Cejie"
 
 # prettier-ignore
 educations:
-  - education-name: "technical-programme"
-    school-name: "NTI-Gymnasiet Uppsala"
-    date: "2020-2023"
-  - education-name: "international-bartender-course"
-    school-name: "European Bartender School"
-    date: "2024"
   - education-name: "technical-college-graduate"
     school-name: "NTI-Gymnasiet Uppsala"
     date: "2024-2025"
+  - education-name: "international-bartender-course"
+    school-name: "European Bartender School"
+    date: "2024"
+  - education-name: "technical-programme"
+    school-name: "NTI-Gymnasiet Uppsala"
+    date: "2020-2023"
 
 # prettier-ignore
 work-experiences:
@@ -32,16 +32,18 @@ projects:
   - project-name: "Bordsplaceringsgeneratorn"
     description: bordsplaceringsgeneratorn-description
     date: "2024"
-    project-url: "https://github.com/NTIG-Uppsala/Classroom-Seating-Planner"
     images:
       - image-url: "../images/bordsplaceringsgeneratorn.jpg"
         image-thumbnail-url: "../images/bordsplaceringsgeneratorn-sm.jpg"
         image-alt: "Bordsplaceringsgeneratorn"
         image-set: "bordsplaceringsgeneratorn-images"
+    links:
+      - link-text: github-repository-link-text
+        link-url: "https://github.com/NTIG-Uppsala/Classroom-Seating-Planner"
+
   - project-name: "Florista"
     description: florista-description
     date: "2024"
-    project-url: "https://florista.ntig.dev/public/se/"
     images:
       - image-url: "../images/florista-1.jpg"
         image-thumbnail-url: "../images/florista-1-sm.jpg"
@@ -51,23 +53,38 @@ projects:
         image-thumbnail-url: "../images/florista-2-sm.jpg"
         image-alt: "Florista Products Section"
         image-set: "florista-images"
+    links:
+      - link-text: github-repository-link-text
+        link-url: "https://github.com/ntig-Uppsala/J.CAD-Florist"
+      - link-text: website-link-text
+        link-url: "https://florista.ntig.dev/public/se/"
+
   - project-name: "Il Forno Magico"
     description: il-forno-magico-description
     date: "2024"
-    project-url: "https://ilfornomagico.ntig.dev/"
     images:
       - image-url: "../images/il-forno-magico.jpg"
         image-thumbnail-url: "../images/il-forno-magico-sm.jpg"
         image-alt: "Il Forno Magico Start View"
         image-set: "il-forno-magico-images"
+    links:
+      - link-text: github-repository-link-text
+        link-url: "https://github.com/NTIG-Uppsala/TE4-JITS-Pizzeria"
+      - link-text: website-link-text
+        link-url: "https://ilfornomagico.ntig.dev/"
+
   - project-name: "NTB Biluthyrning"
     description: ntb-biluthyrning-description
     date: "2024"
-    project-url: "https://github.com/NTIG-Uppsala/TE4-VALE-Biluthyrning"
+    links:
+      - link-text: github-repository-link-text
+        link-url: "https://github.com/NTIG-Uppsala/TE4-VALE-Biluthyrning"
+      - link-text: website-link-text
+        link-url: "https://ntb-biluthyrning.ntig.dev/"
+
   - project-name: "Winterland"
     description: winterland-description
     date: "2019-2024"
-    project-url: "https://github.com/Klotarn/Winterland"
     images:
       - image-url: "../images/winterland-1.jpg"
         image-thumbnail-url: "../images/winterland-1-sm.jpg"
@@ -77,11 +94,24 @@ projects:
         image-thumbnail-url: "../images/winterland-2-sm.jpg"
         image-alt: "Winterland Level 2"
         image-set: "winterland-images"
+    links:
+      - link-text: github-repository-link-text
+        link-url: "https://github.com/Klotarn/Winterland"
 
   - project-name: "Bredbandsbotten"
     description: bredbandsbotten-description
     date: "2022"
-    project-url: "this-url-does-not-yet-exist"
+    links:
+      - link-text: github-repository-link-text
+        link-url: "https://github.com/Klotarn/bredbandsbotten"
+      - link-text: download-link-text
+        link-url: ""
+  - project-name: "CMU Graphics Chess"
+    description: "A chess game made in Python using the CMU Graphics library."
+    date: "2022-05-24"
+    links:
+      - link-text: github-repository-link-text
+        link-url: "https://github.com/Klotarn/chess"
 
 # prettier-ignore
 programming-languages:

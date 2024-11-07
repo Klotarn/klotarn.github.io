@@ -29,6 +29,9 @@ bredbandsbotten-description: >
     Ett program skrivet i Python som mäter internetanslutningens
     hastighet under en period och sparar resultatet i en excel-
     eller csv-fil.
+github-repository-link-text: "GitHub"
+website-link-text: "Öppna hemsidan"
+download-link-text: "Ladda ner"
 
 # prettier-ignore
 my-titles:

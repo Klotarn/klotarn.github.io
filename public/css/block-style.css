@@ -10,6 +10,7 @@
     flex-direction: column;
     text-align: left;
 }
+
 .block-top-content {
     display: flex;
     flex-direction: row;
@@ -17,14 +18,25 @@
     text-align: left;
     margin-top: 0.5rem;
 }
-.block-title a {
+
+.block-title {
     font-size: 1.1rem;
     color: #000;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
+/*
 .block-title a:hover {
     color: #555;
+} */
+
+.block-links {
+    display: inline-block;
+}
+
+.block-link {
+    font-size: 0.9rem;
+    display: inline-block;
 }
 
 .block-date {
