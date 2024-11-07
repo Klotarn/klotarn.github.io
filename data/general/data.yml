@@ -114,12 +114,17 @@ projects:
         link-url: "https://github.com/Klotarn/chess"
 
 # prettier-ignore
-programming-languages:
-  - programming-language: "HTML"
-  - programming-language: "CSS"
-  - programming-language: "JavaScript"
-  - programming-language: "Python"
-  - programming-language: "C#"
+skills:
+  - skill-name: "HTML"
+  - skill-name: "CSS"
+  - skill-name: "JavaScript"
+  - skill-name: "Python"
+  - skill-name: "C#"
+  - skill-name: "Unity"
+  - skill-name: "Git"
+  - skill-name: "Selenium"
+  - skill-name: "Playwright"
+  - translated-skill-name: automatic-testing
 
 # prettier-ignore
 languages:

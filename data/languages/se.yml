@@ -2,7 +2,7 @@ site-title: "Jespers portfolio"
 projects-section-title: "Projekt"
 work-experience-section-title: "Arbetslivserfarenhet"
 education-section-title: "Utbildning"
-programming-languages-section-title: "Programmeringsspråk"
+skills-section-title: "Kunskaper"
 language-section-title: "Språk"
 
 # education
@@ -40,6 +40,9 @@ my-titles:
   - title: "Hovmästare"
   - title: "Bartender"
   - title: "Servitör"
+
+# skills
+automatic-testing: "Automatiserad testning"
 
 # languages
 swedish-name: "Svenska"

@@ -85,10 +85,11 @@
                 {{/each}}
             </section>
             <div class="p-1 container flex-col flex-col-md">
-                <section id="programming-languages-section">
-                    <h3 class="header">{{language.programming-languages-section-title}}</h3>
-                    {{#each general.programming-languages}}
-                    <p>{{this.programming-language}}</p>
+                <section id="skills-section">
+                    <h3 class="header">{{language.skills-section-title}}</h3>
+                    {{#each general.skills}}
+                    <p>{{#if this.translated-skill-name }}{{translate @root.language
+                        this.translated-skill-name}}{{else}}{{this.skill-name}}{{/if}}</p>
                     {{/each}}
                 </section>
                 <section id="languages-section" class="mt-1">
