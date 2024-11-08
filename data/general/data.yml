@@ -106,12 +106,20 @@ projects:
         link-url: "https://github.com/Klotarn/bredbandsbotten"
       - link-text: download-link-text
         link-url: ""
+
   - project-name: "CMU Graphics Chess"
-    description: "A chess game made in Python using the CMU Graphics library."
+    description: cmu-graphics-chess-description
     date: "2022-05-24"
     links:
       - link-text: github-repository-link-text
         link-url: "https://github.com/Klotarn/chess"
+
+  - project-name: "Skatterättsligt Forum"
+    description: skatterattsligt-forum-description
+    date: "2023-2024"
+    links:
+      - link-text: website-link-text
+        link-url: "https://www.skatterattsligtforum.se/"
 
 # prettier-ignore
 skills:

@@ -29,6 +29,13 @@ bredbandsbotten-description: >
     Ett program skrivet i Python som mäter internetanslutningens
     hastighet under en period och sparar resultatet i en excel-
     eller csv-fil.
+cmu-graphics-chess-description: >
+    Ett schackspel skrivet i Python med hjälp av CMU Graphics Library.
+    Spelet har stöd för att spela mot en annan spelare lokalt.
+skatterattsligt-forum-description: >
+    En hemsida för ett företag som arbetar med
+    skatterätt. Hemsidan är skapad i WordPress.
+
 github-repository-link-text: "GitHub"
 website-link-text: "Öppna hemsidan"
 download-link-text: "Ladda ner"
