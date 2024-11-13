@@ -122,21 +122,20 @@ projects:
         link-url: "https://www.skatterattsligtforum.se/"
 
 # prettier-ignore
-skills:
-  - skill-name: "HTML"
-  - skill-name: "CSS"
-  - skill-name: "JavaScript"
-  - skill-name: "Python"
-  - skill-name: "C#"
-  - skill-name: "Unity"
-  - skill-name: "Git"
-  - skill-name: "Selenium"
-  - skill-name: "Playwright"
-  - translated-skill-name: automatic-testing
-  - skill-name: "WPF"
-  - translated-skill-name: agile-programming
-  - skill-name: "Scrum"
-  
+techniques:
+  - technique-name: "HTML"
+  - technique-name: "CSS"
+  - technique-name: "JavaScript"
+  - technique-name: "Python"
+  - technique-name: "C#"
+  - technique-name: "Unity"
+  - technique-name: "Git"
+  - technique-name: "Selenium"
+  - technique-name: "Playwright"
+  - translated-technique-name: automatic-testing
+  - technique-name: "WPF"
+  - translated-technique-name: agile-programming
+  - technique-name: "Scrum"
 
 # prettier-ignore
 languages:
