@@ -10,122 +10,143 @@
     </head>
 
     <body>
-        <div id="main-container" class="container container-main justify-content-center flex-row flex-col-md mt-2 mt-1-md mt-0-sm">
-            <div id="primary-container" class="col order-1 order-2-md">
-                <section id="education-section" class="bg-white p-1">
-                    <h2 class="header">{{language.education-section-title}}</h2>
-                    {{#each general.educations}}
-                        <hr />
-                        <div class="block education-block">
-                            <div class="block-top-content">
-                                <div class="block-left-content">
-                                    <strong class="block-title education-name">{{translate @root.language this.education-name}}</strong>
-                                    <p class="block-info school-name">{{this.school-name}}</p>
-                                </div>
-                                <p class="block-date">
-                                    {{translate @root.language this.start-month}}
-                                    {{this.start-year}}
-                                    -
-                                    {{#if this.ongoing}}
-                                        {{@root.language.ongoing}}
-                                    {{else}}
-                                        {{translate @root.language this.end-month "lowercase"}}
-                                        {{this.end-year}}
-                                    {{/if}}
-                                </p>
-                            </div>
-                        </div>
-                    {{/each}}
-                </section>
-                <section id="work-experience-section" class="bg-white mt-1 p-1">
-                    <h2 class="header">{{language.work-experience-section-title}}</h2>
-                    {{#each general.work-experiences}}
-                        <hr />
-                        <div class="block work-experience-block">
-                            <div class="block-top-content">
-                                <div class="block-left-content">
-                                    <strong class="block-title work-experience-company-name">{{this.company-name}}</strong>
-                                    <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
-                                </div>
-                                <p class="block-date">
-                                    {{translate @root.language this.start-month}}
-                                    {{this.start-year}}
-                                    -
-                                    {{#if this.ongoing}}
-                                        {{@root.language.ongoing}}
-                                    {{else}}
-                                        {{translate @root.language this.end-month "lowercase"}}
-                                        {{this.end-year}}
-                                    {{/if}}
-                                </p>
-                            </div>
-                        </div>
-                    {{/each}}
-                </section>
-                <section id="projects-section" class="bg-white mt-1 p-1">
-                    <h2 class="header">{{language.projects-section-title}}</h2>
-                    {{#each general.projects}}
-                        <hr />
-                        <div class="block project-block">
-                            <div class="block-top-content">
-                                <div class="block-left-content">
-                                    <div class="flex-row justify-content-center">
-                                        <strong class="block-title project-name">{{this.project-name}}</strong>
-                                        <div class="block-links">
-                                            {{#each this.links}}
-                                                <a href="{{this.link-url}}" target="_blank" class="block-link">[{{translate @root.language this.link-text}}]</a>
-                                            {{/each}}
-                                        </div>
-                                    </div>
-                                    <p class="block-info project-description">{{translate @root.language this.description}}</p>
-                                </div>
-                                <p class="block-date">
-                                    {{translate @root.language this.start-month}}
-                                    {{this.start-year}}
-                                    -
-                                    {{#if this.ongoing}}
-                                        {{@root.language.ongoing}}
-                                    {{else}}
-                                        {{translate @root.language this.end-month "lowercase"}}
-                                        {{this.end-year}}
-                                    {{/if}}
-                                </p>
-                            </div>
-                            <div class="block-images">
-                                {{#each this.images}}
-                                    <a class="block-image-link" href="{{this.image-url}}" data-lightbox="{{this.image-set}}" data-title="{{this.image-alt}}"><img
-                                            src="{{this.image-thumbnail-url}}"
-                                            alt="{{this.image-alt}}"
-                                            class="block-image"
-                                        /></a>
-                                {{/each}}
-                            </div>
-                        </div>
-                    {{/each}}
-                </section>
-            </div>
-            <div id="secondary-container" class="container align-text-center flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light order-2 order-1-md">
-                <section class="p-1 bg-primary">
+        <div id="main-container" class="container container-main justify-content-center flex-col flex-col-md mt-2 mt-1-md mt-0-sm">
+            <header id="header" class="container align-text-center bg-primary text-color-light flex-row flex-col-xs justify-content-space-around">
+                <section class="p-1">
                     <h1 class="header">{{general.my-name}}</h1>
-                    {{#each language.my-titles}}
-                        <p>{{this.title}}</p>
-                    {{/each}}
+                    <div id="titles">
+                        {{#each language.my-titles}}
+                            <p>{{this.title}}</p>
+                        {{/each}}
+                    </div>
                 </section>
-                <div class="p-1 container flex-col flex-col-md">
+                <section class="p-1">
+                    <div id="contact-info">
+                        <h3 class="header">{{language.contact-info-title}}</h3>
+                        <p><a class="link-subtle" href="tel:{{general.contact-info.phone}}">{{general.contact-info.phone}}</a></p>
+                        <p><a class="link-subtle" href="mailto:{{general.contact-info.email}}">{{general.contact-info.email}}</a></p>
+                        <p>{{general.contact-info.location}}</p>
+                    </div>
+                    <div id="social-media">
+                        {{#each general.social-media}}
+                            <a href="{{this.link}}" target="_blank" class="social-media-link">{{this.icon}}</a>
+                        {{/each}}
+                    </div>
+                </section>
+            </header>
+            <div id="content-container" class="container justify-content-center flex-row flex-col-md">
+                <div id="primary-container" class="col order-1 order-2-md">
+                    <section id="education-section" class="bg-white mt-1 p-1">
+                        <h2 class="header">{{language.education-section-title}}</h2>
+                        {{#each general.educations}}
+                            <hr />
+                            <div class="block education-block">
+                                <div class="block-top-content">
+                                    <div class="block-left-content">
+                                        <strong class="block-title education-name">{{translate @root.language this.education-name}}</strong>
+                                        <p class="block-info school-name">{{this.school-name}}</p>
+                                    </div>
+                                    <p class="block-date">
+                                        {{translate @root.language this.start-month}}
+                                        {{this.start-year}}
+                                        -
+                                        {{#if this.ongoing}}
+                                            {{@root.language.ongoing}}
+                                        {{else}}
+                                            {{translate @root.language this.end-month "lowercase"}}
+                                            {{this.end-year}}
+                                        {{/if}}
+                                    </p>
+                                </div>
+                            </div>
+                        {{/each}}
+                    </section>
+                    <section id="work-experience-section" class="bg-white mt-1 p-1">
+                        <h2 class="header">{{language.work-experience-section-title}}</h2>
+                        {{#each general.work-experiences}}
+                            <hr />
+                            <div class="block work-experience-block">
+                                <div class="block-top-content">
+                                    <div class="block-left-content">
+                                        <strong class="block-title work-experience-company-name">{{this.company-name}}</strong>
+                                        <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
+                                    </div>
+                                    <p class="block-date">
+                                        {{translate @root.language this.start-month}}
+                                        {{this.start-year}}
+                                        -
+                                        {{#if this.ongoing}}
+                                            {{@root.language.ongoing}}
+                                        {{else}}
+                                            {{translate @root.language this.end-month "lowercase"}}
+                                            {{this.end-year}}
+                                        {{/if}}
+                                    </p>
+                                </div>
+                            </div>
+                        {{/each}}
+                    </section>
+                    <section id="projects-section" class="bg-white mt-1 p-1">
+                        <h2 class="header">{{language.projects-section-title}}</h2>
+                        {{#each general.projects}}
+                            <hr />
+                            <div class="block project-block">
+                                <div class="block-top-content">
+                                    <div class="block-left-content">
+                                        <div class="flex-row justify-content-center">
+                                            <strong class="block-title project-name">{{this.project-name}}</strong>
+                                            <div class="block-links">
+                                                {{#each this.links}}
+                                                    <a href="{{this.link-url}}" target="_blank" class="block-link">[{{translate @root.language this.link-text}}]</a>
+                                                {{/each}}
+                                            </div>
+                                        </div>
+                                        <p class="block-info project-description">{{translate @root.language this.description}}</p>
+                                    </div>
+                                    <p class="block-date">
+                                        {{translate @root.language this.start-month}}
+                                        {{this.start-year}}
+                                        -
+                                        {{#if this.ongoing}}
+                                            {{@root.language.ongoing}}
+                                        {{else}}
+                                            {{translate @root.language this.end-month "lowercase"}}
+                                            {{this.end-year}}
+                                        {{/if}}
+                                    </p>
+                                </div>
+                                <div class="block-images">
+                                    {{#each this.images}}
+                                        <a class="block-image-link" href="{{this.image-url}}" data-lightbox="{{this.image-set}}" data-title="{{this.image-alt}}"><img
+                                                src="{{this.image-thumbnail-url}}"
+                                                alt="{{this.image-alt}}"
+                                                class="block-image"
+                                            /></a>
+                                    {{/each}}
+                                </div>
+                            </div>
+                        {{/each}}
+                    </section>
+                </div>
+                <div id="secondary-container" class="container align-text-center flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light order-2 order-1-md ms-1 ms-0-md mt-1 p-1">
                     <section id="techniques-section">
                         <h3 class="header">{{language.techniques-section-title}}</h3>
                         {{#each general.techniques}}
                             <p>{{#if this.translated-technique-name}}{{translate @root.language this.translated-technique-name}}{{else}}{{this.technique-name}}{{/if}}</p>
                         {{/each}}
                     </section>
-                    <section id="languages-section" class="mt-1">
+                    <section id="languages-section" class="mt-1 mt-0-md mt-1-xs">
                         <h3 class="header">{{language.language-section-title}}</h3>
                         {{#each general.languages}}
-                            <p>{{translate @root.language this.language-name}}
-                                -
-                                {{translate @root.language this.proficiency}}</p>
+                            <div class="container justify-content-space-between">
+                                <p>{{translate @root.language this.language-name}}</p>
+                                <p class="mx-1"> - </p>
+                                <p>{{translate @root.language this.proficiency}}</p>
+                            </div>
                         {{/each}}
                     </section>
+                    {{! <div class="p-1 container flex-col flex-col-md">
+                    </div> }}
                 </div>
             </div>
         </div>

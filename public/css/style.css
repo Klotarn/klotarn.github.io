@@ -2,6 +2,7 @@
     --bg-primary: #007d3c;
     --bg-primary-subtle: rgb(77, 192, 133);
     --bg-primary-subtle: hsl(149, 48%, 43%);
+    --bg-body: hsl(149, 48%, 88%);
     --text-color-light: #ddffde;
     --text-color-light: #fff;
     --text-color-light-subtle: hsl(141, 73%, 80%);
@@ -24,7 +25,7 @@
 
 body {
     overflow-x: hidden;
-    background-color: rgb(233, 233, 233);
+    background-color: var(--bg-body);
 }
 
 hr {
@@ -73,6 +74,15 @@ hr {
 .container-main {
     width: 1320px;
     margin: 0 auto;
+}
+
+.link-subtle {
+    color: var(--text-color-light-subtle);
+    /* color: white; */
+}
+
+.link-subtle:hover {
+    color: var(--text-color-light);
 }
 
 /* centering classes */
@@ -558,8 +568,20 @@ hr {
         flex-direction: row;
     }
 
+    .ms-0-md {
+        margin-left: 0;
+    }
+
+    .mt-0-md {
+        margin-top: 0;
+    }
+
     .mt-1-md {
         margin-top: 1rem;
+    }
+
+    .mb-0-md {
+        margin-bottom: 0;
     }
 }
 
@@ -588,5 +610,9 @@ hr {
 
     .flex-row-xs {
         flex-direction: row;
+    }
+
+    .mt-1-xs {
+        margin-top: 1rem;
     }
 }
