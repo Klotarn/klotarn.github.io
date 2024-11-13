@@ -1,8 +1,19 @@
+## Generellt
+
 -   [ ] Hitta gamla python-projekt och gör till repositories
--   [X] Lightbox för bilder till projekt?
--   [X] Bilder för vissa projekt (ist för repositories)?
--   [ ] hr för stark
--   [ ] hr under rubrik?
+-   [x] Lightbox för bilder till projekt?
+-   [x] Bilder för vissa projekt (ist för repositories)?
+-   [ ] Bilder för alla projekt
+-   [ ] Features och kunskaper som krävts till projekt i dess beskrivningar?
+-   [ ] Kunskaper += YAML
+-   [ ] Kunskaper += PHP (snart)
+-   [?] Kunskaper += LightBox
+-   [ ] Gör det tydligt att man kan klicka på bilderna
+
+## Viggos återkoppling
+
+-   [x] hr för stark
+-   [x] hr under rubrik?
 -   [ ] det gröna ser ut som en stolpe, sektionerna ser ut som papperslappar
 -   [ ] drop shadow till bilder? dålig kontrast
 -   [ ] större namn
@@ -16,6 +27,20 @@
 -   [ ] språk - aligna till kanter, bindesträck inte nödvändiga?
 -   [ ] personuppgiftsgrejer i stolpen. kontakt, sociala medier
 -   [ ] arbetslivserfarenhet bredvid utbildningar på större skärmar
--   [ ] utbildningar omvänd ordning
+-   [x] utbildningar omvänd ordning
 -   [ ] kanske specifiera månader mer?
--   [ ] "länk till hemsidan" & "länk till github-repo"
+-   [x] "länk till hemsidan" & "länk till github-repo"
+-   [ ] snyggare länkar
+
+## Kaspers återkoppling
+
+-   [x] "Programmeringsspråk" -> "Kunskaper"/"Tekniker" (HTML och CSS är inte programmeringsspråk)
+-   [ ] "Teknikprogrammet" (felstavat just nu)
+-   [ ] Skatterättsligt Forum i portfolio
+-   [ ] Bättre bild till bordsplaceringsgeneratorn (utslumpade platser) (jpg-png)
+
+## Daniils återkoppling
+
+-   [ ] Flytta gröna spalten?
+-   [ ] Vara konsekvent med mängd projektbilder
+-   [ ] Superljusgrön istället för grå bakgrund? (eller [mönster](https://www.toptal.com/designers/subtlepatterns/)?)
