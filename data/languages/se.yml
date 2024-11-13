@@ -5,10 +5,25 @@ education-section-title: "Utbildning"
 techniques-section-title: "Tekniker"
 language-section-title: "Språk"
 
+# date variables
+ongoing: "pågående"
+january-short: "Jan"
+february-short: "Feb"
+march-short: "Mar"
+april-short: "Apr"
+may-short: "Maj"
+june-short: "Jun"
+july-short: "Jul"
+august-short: "Aug"
+september-short: "Sep"
+october-short: "Okt"
+november-short: "Nov"
+december-short: "Dec"
+
 # education
 technical-college-graduate: "Gymnasieingenjör"
 international-bartender-course: "4 veckors internationell bartenderkurs"
-technical-programme: "Tekinkprogrammet"
+technical-programme: "Teknikprogrammet"
 
 # work experiences
 hambergs-catering-role: "Servitör, Bartender, Hovmästare"

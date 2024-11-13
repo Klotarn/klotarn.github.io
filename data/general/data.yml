@@ -2,37 +2,68 @@ my-name: "Jesper Cejie"
 
 # prettier-ignore
 educations:
-  - education-name: "technical-college-graduate"
+  - education-name: technical-college-graduate
     school-name: "NTI-Gymnasiet Uppsala"
-    date: "2024-2025"
-  - education-name: "international-bartender-course"
+    ongoing: true
+    start-month: august-short
+    start-year: "2024"
+    end-month: june-short
+    end-year: "2025"
+  - education-name: international-bartender-course
     school-name: "European Bartender School"
-    date: "2024"
-  - education-name: "technical-programme"
+    ongoing: false
+    start-month: april-short
+    start-year: "2024"
+    end-month: april-short
+    end-year: "2024"
+  - education-name: technical-programme
     school-name: "NTI-Gymnasiet Uppsala"
-    date: "2020-2023"
+    ongoing: false
+    start-month: august-short
+    start-year: "2020"
+    end-month: june-short
+    end-year: "2023"
 
 # prettier-ignore
 work-experiences:
   - company-name: "Hambergs Catering AB"
-    role: "hambergs-catering-role"
-    date: "2022-2024"
+    role: hambergs-catering-role
+    ongoing: true
+    start-month: august-short
+    start-year: "2022"
   - company-name: "Flustret"
-    role: "flustret-role"
-    date: "2024"
+    role: flustret-role
+    ongoing: true
+    start-month: march-short
+    start-year: "2024"
+    end-month: september-short
+    end-year: "2024"
   - company-name: "Clarion Hotel Gillet"
-    role: "clarion-hotel-gillet-role"
-    date: "2024"
+    role: clarion-hotel-gillet-role
+    ongoing: true
+    start-month: august-short
+    start-year: "2024"
+    end-month: november-short
+    end-year: "2024"
   - company-name: "Skatterättsligt Forum"
-    role: "skatterattsligt-forum-role"
-    date: "2023-2024"
+    role: skatterattsligt-forum-role
+    ongoing: true
+    start-month: august-short
+    start-year: "2023"
+    end-month: november-short
+    end-year: "2024"
 
 # prettier-ignore
 projects:
   - project-name: "Bordsplaceringsgeneratorn"
     description: bordsplaceringsgeneratorn-description
     date: "2024"
-    images:
+    ongoing: true
+    start-month: october-short
+    start-year: "2024"
+    end-month: november-short
+    end-year: "2024"
+    images: 
       - image-url: "../images/bordsplaceringsgeneratorn.jpg"
         image-thumbnail-url: "../images/bordsplaceringsgeneratorn-sm.jpg"
         image-alt: "Bordsplaceringsgeneratorn"
@@ -44,6 +75,11 @@ projects:
   - project-name: "Florista"
     description: florista-description
     date: "2024"
+    ongoing: false
+    start-month: september-short
+    start-year: "2024"
+    end-month: october-short
+    end-year: "2024"
     images:
       - image-url: "../images/florista-1.jpg"
         image-thumbnail-url: "../images/florista-1-sm.jpg"
@@ -62,6 +98,11 @@ projects:
   - project-name: "Il Forno Magico"
     description: il-forno-magico-description
     date: "2024"
+    ongoing: false
+    start-month: august-short
+    start-year: "2024"
+    end-month: september-short
+    end-year: "2024"
     images:
       - image-url: "../images/il-forno-magico.jpg"
         image-thumbnail-url: "../images/il-forno-magico-sm.jpg"
@@ -76,6 +117,11 @@ projects:
   - project-name: "NTB Biluthyrning"
     description: ntb-biluthyrning-description
     date: "2024"
+    ongoing: false
+    start-month: october-short
+    start-year: "2024"
+    end-month: october-short
+    end-year: "2024"
     links:
       - link-text: github-repository-link-text
         link-url: "https://github.com/NTIG-Uppsala/TE4-VALE-Biluthyrning"
@@ -85,6 +131,9 @@ projects:
   - project-name: "Winterland"
     description: winterland-description
     date: "2019-2024"
+    ongoing: true
+    start-month: 
+    start-year: "2019"
     images:
       - image-url: "../images/winterland-1.jpg"
         image-thumbnail-url: "../images/winterland-1-sm.jpg"
@@ -100,7 +149,11 @@ projects:
 
   - project-name: "Bredbandsbotten"
     description: bredbandsbotten-description
-    date: "2022"
+    ongoing: false
+    start-month: october-short
+    start-year: "2021"
+    end-month: november-short
+    end-year: "2024"
     links:
       - link-text: github-repository-link-text
         link-url: "https://github.com/Klotarn/bredbandsbotten"
@@ -110,6 +163,11 @@ projects:
   - project-name: "CMU Graphics Chess"
     description: cmu-graphics-chess-description
     date: "2022-05-24"
+    ongoing: false
+    start-month: may-short
+    start-year: "2022"
+    end-month: november-short
+    end-year: "2024"
     links:
       - link-text: github-repository-link-text
         link-url: "https://github.com/Klotarn/chess"
@@ -117,6 +175,11 @@ projects:
   - project-name: "Skatterättsligt Forum"
     description: skatterattsligt-forum-description
     date: "2023-2024"
+    ongoing: false
+    start-month: august-short
+    start-year: "2023"
+    end-month: november-short
+    end-year: "2024"
     links:
       - link-text: website-link-text
         link-url: "https://www.skatterattsligtforum.se/"

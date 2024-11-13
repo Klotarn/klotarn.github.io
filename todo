@@ -1,46 +1,74 @@
-## Generellt
+## Grafiska ändringar
 
--   [ ] Hitta gamla python-projekt och gör till repositories
--   [x] Lightbox för bilder till projekt?
--   [x] Bilder för vissa projekt (ist för repositories)?
--   [ ] Bilder för alla projekt
--   [ ] Features och kunskaper som krävts till projekt i dess beskrivningar?
--   [ ] Kunskaper += YAML
--   [ ] Kunskaper += PHP (snart)
--   [?] Kunskaper += LightBox
--   [ ] Gör det tydligt att man kan klicka på bilderna
+### Generellt
 
-## Viggos återkoppling
+-   [ ] Superljusgrön istället för grå bakgrund? (eller [mönster](https://www.toptal.com/designers/subtlepatterns/)?) (d)
+-   [x] hr för stark (v)
+-   [x] hr under rubrik? (v)
 
--   [x] hr för stark
--   [x] hr under rubrik?
--   [ ] det gröna ser ut som en stolpe, sektionerna ser ut som papperslappar
--   [ ] drop shadow till bilder? dålig kontrast
--   [ ] större namn
--   [ ] mer utrymme till "kompetenser"?
--   [ ] prova olika alignments till "kompetenser"
--   [ ] inte för många kompetenser?
--   [ ] fundera över prioritering på kompetenser
--   [ ] månader i vissa år?
--   [ ] åååå-åååå -> åååå - åååå / åååå -- åååå
--   [ ] programmeringsspråk: punktlista (cirkelpunkter)? alignment till vänster?
--   [ ] språk - aligna till kanter, bindesträck inte nödvändiga?
--   [ ] personuppgiftsgrejer i stolpen. kontakt, sociala medier
--   [ ] arbetslivserfarenhet bredvid utbildningar på större skärmar
--   [x] utbildningar omvänd ordning
--   [ ] kanske specifiera månader mer?
--   [x] "länk till hemsidan" & "länk till github-repo"
--   [ ] snyggare länkar
+### Personlig info
 
-## Kaspers återkoppling
+-   [ ] större namn (v)
+-   [ ] det gröna ser ut som en stolpe, sektionerna ser ut som papperslappar (v)
+-   [ ] Flytta gröna spalten? (d)
+-   [ ] mer utrymme till "kompetenser"? (v)
+-   [ ] prova olika alignments till "kompetenser" (v)
+-   [ ] programmeringsspråk: punktlista (cirkelpunkter)? alignment till vänster? (v)
+-   [ ] språk - aligna till kanter, bindesträck inte nödvändiga? (v)
 
--   [x] "Programmeringsspråk" -> "Kunskaper"/"Tekniker" (HTML och CSS är inte programmeringsspråk)
--   [ ] "Teknikprogrammet" (felstavat just nu)
--   [ ] Skatterättsligt Forum i portfolio
--   [ ] Bättre bild till bordsplaceringsgeneratorn (utslumpade platser) (jpg-png)
+### Arbetslivserfarenhet
 
-## Daniils återkoppling
+-   [ ] arbetslivserfarenhet bredvid utbildningar på större skärmar? (v)
 
--   [ ] Flytta gröna spalten?
--   [ ] Vara konsekvent med mängd projektbilder
--   [ ] Superljusgrön istället för grå bakgrund? (eller [mönster](https://www.toptal.com/designers/subtlepatterns/)?)
+### Projekt
+
+-   [ ] drop shadow till bilder? dålig kontrast (v)
+-   [ ] snyggare länkar (v)
+-   [ ] Gör det tydligt att man kan klicka på bilderna (g)
+-   [x] Lightbox för bilder till projekt? (g)
+-   [x] Bilder för vissa projekt (ist för repositories)? (g)
+
+## Ändring av innehåll
+
+### Utbildningar
+
+-   [x] "Teknikprogrammet" (felstavat just nu) (k)
+-   [x] utbildningar omvänd ordning (v)
+
+### Datum
+
+-   [x] månader i vissa år? (v)
+-   [x] åååå-åååå -> åååå - åååå / åååå -- åååå (v)
+-   [x] kanske specifiera månader mer? (v)
+
+### Personlig information
+
+-   [ ] inte för många kompetenser? (v)
+-   [ ] fundera över prioritering på kompetenser (v)
+-   [ ] personuppgiftsgrejer i stolpen. kontakt, sociala medier (v)
+-   [ ] Kunskaper += YAML (g)
+-   [ ] Kunskaper += PHP (snart) (g)
+-   [?] Kunskaper += LightBox (g)
+-   [x] "Programmeringsspråk" -> "Kunskaper"/"Tekniker" (HTML och CSS är inte programmeringsspråk) (k)
+
+### Projekt
+
+-   [ ] Bättre bild till bordsplaceringsgeneratorn (utslumpade platser) (jpg-png) (k)
+-   [ ] Vara konsekvent med mängd projektbilder (d)
+-   [ ] Features och kunskaper som krävts till projekt i dess beskrivningar? (g)
+-   [ ] startmånad för Winterland
+-   [x] "länk till hemsidan" & "länk till github-repo" (v)
+-   [x] Skatterättsligt Forum i portfolio (k)
+
+## Nytt inehåll
+
+### Projekt august-short
+
+-   [ ] Hitta gamla python-projekt och gör till repositories (bartränaren) (g)
+-   [ ] Bilder för alla projekt (g)
+
+## Funderingar
+
+-   [ ] Privata repon eller ej?
+-   [ ] Länk till gammalt GitHub-repo för il forno magico?
+-   [ ] ska datum på projekt vara när jag jobbat på dem eller när de jobbats på av vem som helst?

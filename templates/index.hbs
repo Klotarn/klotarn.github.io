@@ -22,7 +22,17 @@
                                     <strong class="block-title education-name">{{translate @root.language this.education-name}}</strong>
                                     <p class="block-info school-name">{{this.school-name}}</p>
                                 </div>
-                                <p class="block-date">{{this.date}}</p>
+                                <p class="block-date">
+                                    {{translate @root.language this.start-month}}
+                                    {{this.start-year}}
+                                    -
+                                    {{#if this.ongoing}}
+                                        {{@root.language.ongoing}}
+                                    {{else}}
+                                        {{translate @root.language this.end-month "lowercase"}}
+                                        {{this.end-year}}
+                                    {{/if}}
+                                </p>
                             </div>
                         </div>
                     {{/each}}
@@ -37,7 +47,17 @@
                                     <strong class="block-title work-experience-company-name">{{this.company-name}}</strong>
                                     <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
                                 </div>
-                                <p class="block-date">{{this.date}}</p>
+                                <p class="block-date">
+                                    {{translate @root.language this.start-month}}
+                                    {{this.start-year}}
+                                    -
+                                    {{#if this.ongoing}}
+                                        {{@root.language.ongoing}}
+                                    {{else}}
+                                        {{translate @root.language this.end-month "lowercase"}}
+                                        {{this.end-year}}
+                                    {{/if}}
+                                </p>
                             </div>
                         </div>
                     {{/each}}
@@ -59,7 +79,17 @@
                                     </div>
                                     <p class="block-info project-description">{{translate @root.language this.description}}</p>
                                 </div>
-                                <p class="block-date">{{this.date}}</p>
+                                <p class="block-date">
+                                    {{translate @root.language this.start-month}}
+                                    {{this.start-year}}
+                                    -
+                                    {{#if this.ongoing}}
+                                        {{@root.language.ongoing}}
+                                    {{else}}
+                                        {{translate @root.language this.end-month "lowercase"}}
+                                        {{this.end-year}}
+                                    {{/if}}
+                                </p>
                             </div>
                             <div class="block-images">
                                 {{#each this.images}}

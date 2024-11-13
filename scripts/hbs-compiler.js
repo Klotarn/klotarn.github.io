@@ -10,15 +10,33 @@ function convertYamlToJs(yamlFileFolder) {
     return dataObj;
 }
 
-const translate = (lang, key) => {
-    return lang[key] || key;
+const translate = (lang, key, charcase) => {
+    let translatedkey = lang[key];
+    if (charcase === "lowercase") {
+        if (lang[key] && typeof lang[key] === "string") {
+            translatedkey = lang[key].toLowerCase();
+        }
+    } else if (charcase === "uppercase") {
+        if (lang[key] && typeof lang[key] === "string") {
+            translatedkey = lang[key].toUpperCase();
+        }
+    }
+    return translatedkey || lang[key] || key;
 };
 
 // Import the required modules
 const fs = require("fs"); // File system module
 const yaml = require("js-yaml"); // Module for converting YAML to JS-Objects
 const handlebars = require("handlebars"); // Handlebars module
+
+// Register the custom Handlebars helper functions
 handlebars.registerHelper("translate", translate);
+handlebars.registerHelper("lowercase", function (str) {
+    if (str && typeof str === "string") {
+        return str.toLowerCase();
+    }
+    return "";
+});
 
 // Define the paths to the files and folders used when compiling the Handlebars template
 const templateFile = "templates/index.hbs"; // Path to the Handlebars template file
