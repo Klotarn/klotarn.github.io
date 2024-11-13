@@ -11,7 +11,11 @@
 
     <body>
         <div id="main-container" class="container container-main justify-content-center flex-col flex-col-md mt-2 mt-1-md mt-0-sm">
-            <header id="header" class="container align-text-center bg-primary text-color-light flex-row flex-col-xs justify-content-space-around">
+            <header id="header" class="container text-align-center bg-primary text-color-light flex-row flex-col-sm justify-content-space-evenly align-items-center">
+                <div id="profile-picture-container" class="visibility-collapse d-none d-none-sm p-1">
+                    <img id="profile-picture" src="" alt="Jesper Cejie" id="profile-image" />
+                </div>
+
                 <section class="p-1">
                     <h1 class="header">Jesper Cejie</h1>
                     <div id="titles">
@@ -22,16 +26,11 @@
                             <p>Servitör</p>
                     </div>
                 </section>
-                <section class="p-1">
-                    <div id="contact-info">
-                        <h3 class="header">Kontakt</h3>
-                        <p><a class="link-subtle" href="tel:+46 72 700 20 23">+46 72 700 20 23</a></p>
-                        <p><a class="link-subtle" href="mailto:jesper@cejie.se">jesper@cejie.se</a></p>
-                        <p>Uppsala, Sweden</p>
-                    </div>
+
+                <div class="p-1 d-none">
                     <div id="social-media">
                     </div>
-                </section>
+                </div>
             </header>
             <div id="content-container" class="container justify-content-center flex-row flex-col-md">
                 <div id="primary-container" class="col order-1 order-2-md">
@@ -153,7 +152,7 @@
                             <hr />
                             <div class="block project-block">
                                 <div class="block-top-content">
-                                    <div class="block-left-content">
+                                    <div class="block-left-content mw-75">
                                         <div class="flex-row justify-content-center">
                                             <strong class="block-title project-name">Bordsplaceringsgeneratorn</strong>
                                             <div class="block-links">
@@ -181,7 +180,7 @@
                             <hr />
                             <div class="block project-block">
                                 <div class="block-top-content">
-                                    <div class="block-left-content">
+                                    <div class="block-left-content mw-75">
                                         <div class="flex-row justify-content-center">
                                             <strong class="block-title project-name">Florista</strong>
                                             <div class="block-links">
@@ -215,7 +214,7 @@
                             <hr />
                             <div class="block project-block">
                                 <div class="block-top-content">
-                                    <div class="block-left-content">
+                                    <div class="block-left-content mw-75">
                                         <div class="flex-row justify-content-center">
                                             <strong class="block-title project-name">Il Forno Magico</strong>
                                             <div class="block-links">
@@ -244,7 +243,7 @@
                             <hr />
                             <div class="block project-block">
                                 <div class="block-top-content">
-                                    <div class="block-left-content">
+                                    <div class="block-left-content mw-75">
                                         <div class="flex-row justify-content-center">
                                             <strong class="block-title project-name">NTB Biluthyrning</strong>
                                             <div class="block-links">
@@ -268,7 +267,7 @@
                             <hr />
                             <div class="block project-block">
                                 <div class="block-top-content">
-                                    <div class="block-left-content">
+                                    <div class="block-left-content mw-75">
                                         <div class="flex-row justify-content-center">
                                             <strong class="block-title project-name">Winterland</strong>
                                             <div class="block-links">
@@ -301,7 +300,7 @@
                             <hr />
                             <div class="block project-block">
                                 <div class="block-top-content">
-                                    <div class="block-left-content">
+                                    <div class="block-left-content mw-75">
                                         <div class="flex-row justify-content-center">
                                             <strong class="block-title project-name">Bredbandsbotten</strong>
                                             <div class="block-links">
@@ -326,7 +325,7 @@
                             <hr />
                             <div class="block project-block">
                                 <div class="block-top-content">
-                                    <div class="block-left-content">
+                                    <div class="block-left-content mw-75">
                                         <div class="flex-row justify-content-center">
                                             <strong class="block-title project-name">CMU Graphics Chess</strong>
                                             <div class="block-links">
@@ -350,7 +349,7 @@
                             <hr />
                             <div class="block project-block">
                                 <div class="block-top-content">
-                                    <div class="block-left-content">
+                                    <div class="block-left-content mw-75">
                                         <div class="flex-row justify-content-center">
                                             <strong class="block-title project-name">Skatterättsligt Forum</strong>
                                             <div class="block-links">
@@ -373,45 +372,57 @@
                             </div>
                     </section>
                 </div>
-                <div id="secondary-container" class="container align-text-center flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light order-2 order-1-md ms-1 ms-0-md mt-1 p-1">
-                    <section id="techniques-section">
+                <div
+                    id="secondary-container"
+                    style="flex-wrap: wrap;"
+                    class="container text-align-center flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light order-2 order-1-md ms-1 ms-0-md mt-1 p-1"
+                >
+                    <div class="container flex-col mx-auto">
+                        <section id="contact-info-section" style="height: max-content;" class="mx-auto order-1-md">
+                            <h3 class="header">Kontakt</h3>
+                            <p><a class="link-subtle" href="tel:+46 72 700 20 23">+46 72 700 20 23</a></p>
+                            <p><a class="link-subtle" href="mailto:jesper@cejie.se">jesper@cejie.se</a></p>
+                            <p>Uppsala, Sweden</p>
+                        </section>
+
+                        <section id="languages-section" style="height: max-content;" class="mx-auto mt-1 order-1-md">
+                            <h3 class="header">Språk</h3>
+                                <div class="container justify-content-space-between">
+                                    <p class="me-1">Svenska</p>
+                                    <p>Modersmål</p>
+                                </div>
+                                <div class="container justify-content-space-between">
+                                    <p class="me-1">Engelska</p>
+                                    <p>Flytande</p>
+                                </div>
+                                <div class="container justify-content-space-between">
+                                    <p class="me-1">Spanska</p>
+                                    <p>Nybörjare</p>
+                                </div>
+                                <div class="container justify-content-space-between">
+                                    <p class="me-1">Japanska</p>
+                                    <p>Nybörjare</p>
+                                </div>
+                        </section>
+                    </div>
+
+                    <section id="techniques-section" class="mx-auto order-2-md mt-1 mt-0-md mt-1-xs">
                         <h3 class="header">Tekniker</h3>
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>JavaScript</p>
-                            <p>Python</p>
-                            <p>C#</p>
-                            <p>Unity</p>
-                            <p>Git</p>
-                            <p>Selenium</p>
-                            <p>Playwright</p>
-                            <p>Automatiserad testning</p>
-                            <p>WPF</p>
-                            <p>Agil programmering</p>
-                            <p>Scrum</p>
-                    </section>
-                    <section id="languages-section" class="mt-1 mt-0-md mt-1-xs">
-                        <h3 class="header">Språk</h3>
-                            <div class="container justify-content-space-between">
-                                <p>Svenska</p>
-                                <p> - </p>
-                                <p>Modersmål</p>
-                            </div>
-                            <div class="container justify-content-space-between">
-                                <p>Engelska</p>
-                                <p> - </p>
-                                <p>Flytande</p>
-                            </div>
-                            <div class="container justify-content-space-between">
-                                <p>Spanska</p>
-                                <p> - </p>
-                                <p>Nybörjare</p>
-                            </div>
-                            <div class="container justify-content-space-between">
-                                <p>Japanska</p>
-                                <p> - </p>
-                                <p>Nybörjare</p>
-                            </div>
+                        <ul class="list-type-circle text-align-start ms-1 ms-0-md">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>C#</li>
+                                <li>Unity</li>
+                                <li>Git</li>
+                                <li>Selenium</li>
+                                <li>Playwright</li>
+                                <li>Automatiserad testning</li>
+                                <li>WPF</li>
+                                <li>Agil programmering</li>
+                                <li>SCRUM</li>
+                        </ul>
                     </section>
                 </div>
             </div>

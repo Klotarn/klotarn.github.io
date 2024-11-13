@@ -203,7 +203,7 @@ techniques:
   - translated-technique-name: automatic-testing
   - technique-name: "WPF"
   - translated-technique-name: agile-programming
-  - technique-name: "Scrum"
+  - technique-name: "SCRUM"
 
 # prettier-ignore
 languages:

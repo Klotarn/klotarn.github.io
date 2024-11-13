@@ -11,7 +11,11 @@
 
     <body>
         <div id="main-container" class="container container-main justify-content-center flex-col flex-col-md mt-2 mt-1-md mt-0-sm">
-            <header id="header" class="container align-text-center bg-primary text-color-light flex-row flex-col-xs justify-content-space-around">
+            <header id="header" class="container text-align-center bg-primary text-color-light flex-row flex-col-sm justify-content-space-evenly align-items-center">
+                <div id="profile-picture-container" class="visibility-collapse d-none d-none-sm p-1">
+                    <img id="profile-picture" src="{{general.profile-image}}" alt="{{general.my-name}}" id="profile-image" />
+                </div>
+
                 <section class="p-1">
                     <h1 class="header">{{general.my-name}}</h1>
                     <div id="titles">
@@ -20,19 +24,14 @@
                         {{/each}}
                     </div>
                 </section>
-                <section class="p-1">
-                    <div id="contact-info">
-                        <h3 class="header">{{language.contact-info-title}}</h3>
-                        <p><a class="link-subtle" href="tel:{{general.contact-info.phone}}">{{general.contact-info.phone}}</a></p>
-                        <p><a class="link-subtle" href="mailto:{{general.contact-info.email}}">{{general.contact-info.email}}</a></p>
-                        <p>{{general.contact-info.location}}</p>
-                    </div>
+
+                <div class="p-1 d-none">
                     <div id="social-media">
                         {{#each general.social-media}}
                             <a href="{{this.link}}" target="_blank" class="social-media-link">{{this.icon}}</a>
                         {{/each}}
                     </div>
-                </section>
+                </div>
             </header>
             <div id="content-container" class="container justify-content-center flex-row flex-col-md">
                 <div id="primary-container" class="col order-1 order-2-md">
@@ -92,7 +91,7 @@
                             <hr />
                             <div class="block project-block">
                                 <div class="block-top-content">
-                                    <div class="block-left-content">
+                                    <div class="block-left-content mw-75">
                                         <div class="flex-row justify-content-center">
                                             <strong class="block-title project-name">{{this.project-name}}</strong>
                                             <div class="block-links">
@@ -128,25 +127,38 @@
                         {{/each}}
                     </section>
                 </div>
-                <div id="secondary-container" class="container align-text-center flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light order-2 order-1-md ms-1 ms-0-md mt-1 p-1">
-                    <section id="techniques-section">
+                <div
+                    id="secondary-container"
+                    style="flex-wrap: wrap;"
+                    class="container text-align-center flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light order-2 order-1-md ms-1 ms-0-md mt-1 p-1"
+                >
+                    <div class="container flex-col mx-auto">
+                        <section id="contact-info-section" style="height: max-content;" class="mx-auto order-1-md">
+                            <h3 class="header">{{language.contact-info-title}}</h3>
+                            <p><a class="link-subtle" href="tel:{{general.contact-info.phone}}">{{general.contact-info.phone}}</a></p>
+                            <p><a class="link-subtle" href="mailto:{{general.contact-info.email}}">{{general.contact-info.email}}</a></p>
+                            <p>{{general.contact-info.location}}</p>
+                        </section>
+
+                        <section id="languages-section" style="height: max-content;" class="mx-auto mt-1 order-1-md">
+                            <h3 class="header">{{language.language-section-title}}</h3>
+                            {{#each general.languages}}
+                                <div class="container justify-content-space-between">
+                                    <p class="me-1">{{translate @root.language this.language-name}}</p>
+                                    <p>{{translate @root.language this.proficiency}}</p>
+                                </div>
+                            {{/each}}
+                        </section>
+                    </div>
+
+                    <section id="techniques-section" class="mx-auto order-2-md mt-1 mt-0-md mt-1-xs">
                         <h3 class="header">{{language.techniques-section-title}}</h3>
-                        {{#each general.techniques}}
-                            <p>{{#if this.translated-technique-name}}{{translate @root.language this.translated-technique-name}}{{else}}{{this.technique-name}}{{/if}}</p>
-                        {{/each}}
+                        <ul class="list-type-circle text-align-start ms-1 ms-0-md">
+                            {{#each general.techniques}}
+                                <li>{{#if this.translated-technique-name}}{{translate @root.language this.translated-technique-name}}{{else}}{{this.technique-name}}{{/if}}</li>
+                            {{/each}}
+                        </ul>
                     </section>
-                    <section id="languages-section" class="mt-1 mt-0-md mt-1-xs">
-                        <h3 class="header">{{language.language-section-title}}</h3>
-                        {{#each general.languages}}
-                            <div class="container justify-content-space-between">
-                                <p>{{translate @root.language this.language-name}}</p>
-                                <p class="mx-1"> - </p>
-                                <p>{{translate @root.language this.proficiency}}</p>
-                            </div>
-                        {{/each}}
-                    </section>
-                    {{! <div class="p-1 container flex-col flex-col-md">
-                    </div> }}
                 </div>
             </div>
         </div>
