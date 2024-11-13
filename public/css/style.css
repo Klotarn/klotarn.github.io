@@ -31,10 +31,9 @@ hr {
     border-width: 0.5px;
     height: 0.5px;
     opacity: 0.5;
-
 }
 
-.header+hr {
+.header + hr {
     border: solid;
     border-width: 1px;
     height: 0;
@@ -89,7 +88,7 @@ hr {
 }
 
 .justify-content-space-between {
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .justify-content-space-evenly {
