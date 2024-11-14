@@ -2,6 +2,7 @@
     --bg-primary: #007d3c;
     --bg-primary-subtle: rgb(77, 192, 133);
     --bg-primary-subtle: hsl(149, 48%, 43%);
+    --bg-primary-subtle: hsl(149, 100%, 30%);
     --bg-body: hsl(149, 48%, 88%);
     --text-color-light: #ddffde;
     --text-color-light: #fff;
@@ -91,14 +92,12 @@ a {
     flex-wrap: wrap;
 }
 
-/* 
-.flex-wrap>p {
-    flex: 1 1 auto;
-    text-align: center;
-} */
-
 .align-items-center {
     align-items: center;
+}
+
+.align-items-flex-start {
+    align-items: flex-start;
 }
 
 .d-none {
@@ -125,39 +124,17 @@ a {
     visibility: collapse;
 }
 
-/* #titles * {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-} */
-
-/* #titles p:not(:last-child)::after {
-    position: absolute;
-    bottom: -1rem;
-    left: 0;
-    width: 100%;
-    content: '';
-    border: 1px solid #c00;
-} */
-
-/* #titles p::before, */
-/* #titles p:not(:last-child)::after {
-    align-self: stretch;
-    content: '';
-    position: absolute;
-    top: 0.5em;
-    right: 1em;
-    left: 10px;
-    border: 3px solid #fff;
-    border-radius: 50%;
-} */
-
-/* #titles p:first-child {
-    order: -1;
+#titles .titles-item {
+    position: relative;
 }
 
-#titles p:last-child {
-    order: 1;
-} */
+/* Add dot after each title, but hide the dot on the last item */
+#titles .titles-item:not(:last-child)::after {
+    content: var(--dot, "•");
+    position: absolute;
+    right: 0;
+    color: var(--text-color-light-subtle);
+}
 
 /* text-align classes */
 .text-align-center {
@@ -468,6 +445,10 @@ a {
 /*  */
 
 /* padding-left classes */
+.ps-07 {
+    padding-left: 0.7rem;
+}
+
 .ps-1 {
     padding-left: 1rem;
 }
@@ -748,6 +729,10 @@ a {
         width: 540px;
     }
 
+    .justify-content-space-evenly-md {
+        justify-content: space-evenly;
+    }
+
     .order-1-md {
         order: 1;
     }
@@ -780,6 +765,7 @@ a {
         margin-bottom: 0;
     }
 
+    /* This section ensures enough spacing to the list-dots */
     #techniques-section {
         min-width: calc(50% - 2rem) !important;
         padding-left: 1.5rem;
