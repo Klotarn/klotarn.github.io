@@ -18,9 +18,9 @@
 
                 <section class="p-1">
                     <h1 class="header">{{general.my-name}}</h1>
-                    <div id="titles">
+                    <div id="titles" class="container justify-content-center flex-wrap">
                         {{#each language.my-titles}}
-                            <p>{{this.title}}</p>
+                            <p class="mx-1">{{this.title}}</p>
                         {{/each}}
                     </div>
                 </section>
@@ -114,7 +114,7 @@
                                         {{/if}}
                                     </p>
                                 </div>
-                                <div class="block-images">
+                                <div class="block-images flex-wrap">
                                     {{#each this.images}}
                                         <a class="block-image-link" href="{{this.image-url}}" data-lightbox="{{this.image-set}}" data-title="{{this.image-alt}}"><img
                                                 src="{{this.image-thumbnail-url}}"

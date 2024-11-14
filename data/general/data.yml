@@ -196,8 +196,8 @@ projects:
     links:
       - link-text: github-repository-link-text
         link-url: "https://github.com/Klotarn/bredbandsbotten"
-      - link-text: download-link-text
-        link-url: ""
+      # - link-text: download-link-text
+      #   link-url: ""
 
   - project-name: "CMU Graphics Chess"
     description: cmu-graphics-chess-description

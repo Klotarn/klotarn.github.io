@@ -54,7 +54,7 @@
 .block-images {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     margin-top: 0.5rem;
 }
