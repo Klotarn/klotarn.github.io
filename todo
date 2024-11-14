@@ -12,8 +12,8 @@
 
 -   [ ] Flytta gröna spalten? (d)
 -   [ ] mer utrymme mellan namn och "kompetenser"? (v)
--   [ ] prova olika alignments till "kompetenser" (v)
--   [ ] kompetenser vågrätt med streck eller punkter mellan? (v)
+-   [x] prova olika alignments till "kompetenser" (v)
+-   [x] kompetenser vågrätt med streck eller punkter mellan? (v)
 -   [x] Kontakt -> gröna pelaren (v)
 -   [x] Namn och relaterat högst upp
 -   [x] större namn (v)
@@ -28,7 +28,7 @@
 ### Projekt
 
 -   [ ] snyggare länkar (v)
--   [ ] Gör det tydligt att man kan klicka på bilderna? (g)
+-   [?] Gör det tydligt att man kan klicka på bilderna? (g)
 -   [x] drop shadow till bilder? dålig kontrast (v)
 -   [x] Lightbox för bilder till projekt? (g)
 -   [x] Bilder för vissa projekt (ist för repositories)? (g)
@@ -65,9 +65,9 @@
 
 -   [ ] Bättre bild till bordsplaceringsgeneratorn (utslumpade platser) (jpg-png) (k)
 -   [ ] Vara konsekvent med mängd projektbilder (d)
--   [ ] Features och kunskaper som krävts till projekt i dess beskrivningar? (g)
 -   [ ] startmånad för Winterland
 -   [ ] Gömda bilder? (yml-attribut hidden: true/false)
+-   [?] Features och kunskaper som krävts till projekt i dess beskrivningar? (g)
 -   [x] "länk till hemsidan" & "länk till github-repo" (v)
 -   [x] Skatterättsligt Forum i portfolio (k)
 
