@@ -35,6 +35,10 @@
 
 ## Ändring av innehåll
 
+### Generellt
+
+-   [ ] Laddningssidan bör fixas så att man inte tror att något har gått fel (antingen snabbare eller ändra texten)
+
 ### Utbildningar
 
 -   [x] "Teknikprogrammet" (felstavat just nu) (k)
@@ -63,7 +67,7 @@
 -   [ ] Vara konsekvent med mängd projektbilder (d)
 -   [ ] Features och kunskaper som krävts till projekt i dess beskrivningar? (g)
 -   [ ] startmånad för Winterland
--   [ ] Gömda bilder?
+-   [ ] Gömda bilder? (yml-attribut hidden: true/false)
 -   [x] "länk till hemsidan" & "länk till github-repo" (v)
 -   [x] Skatterättsligt Forum i portfolio (k)
 
