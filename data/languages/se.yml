@@ -34,28 +34,28 @@ skatterattsligt-forum-role: "Webbutvecklare"
 
 # projects
 bordsplaceringsgeneratorn-description: >
-    Ett verktyg för lärare för att generera bordsplaceringar för
-    klasser. Vergtyget är ett WPF-program skrivet i C# som använder
+    Ett verktyg för lärare för att generera bords&shy;placer&shy;ingar för
+    klasser. Verktyget är ett WPF-program skrivet i C# som använder
     en algoritm för att generera bordsplaceringar baserat på
-    användarens önskemål. T.ex. att elever som inte får sitta bredvid
+    an&shy;vän&shy;darens önskemål. T.ex. att elever som inte får sitta bredvid
     varandra inte hamnar bredvid varandra eller att elever som behöver
     sitta nära tavlan hamnar nära tavlan.
 florista-description: >
     En hemsida för en påhittad florist. Hemsidan har en "dagens 
     kap"-funktion som visar en viss produkt från sortimentet till
     rabatterat pris samt lägger produkten högst upp i 
-    produktgalleriet. Hemsidan har också en funktion interaktiv
+    produkt&shy;gal&shy;ler&shy;iet. Hemsidan har också en funktion inter&shy;aktiv
     karta som visar var företaget finns.
 il-forno-magico-description: >
     En hemsida för en påhittad napoletansk pizzeria. Hemsidan använder
-    bootstrap, har ett bildspel och har en sökfunktion för att hitta
+    boot&shy;strap, har ett bildspel och har en sökfunktion för att hitta
     pizzor i menyn.
 ntb-biluthyrning-description: >
-    En hemsida för ett påhittat biluthyrningsföretag. Hemsidan har en
-    funktion för att växla visningsspråk och för att växla mellan
-    olika företagslokaler. Hemsidan har också en funktion för att
-    administratörer ska kunna ändra grundläggande information om
-    företaget och dess lokaler.
+    En hemsida för ett påhittat bil&shy;ut&shy;hyrnings&shy;företag. Hem&shy;sidan har en
+    funktion för att växla visnings&shy;språk och för att växla mellan
+    olika företags&shy;lokaler. Hemsidan har också en funktion för att
+    ad&shy;min&shy;istra&shy;törer ska kunna ändra grund&shy;läg&shy;gande information om
+    före&shy;taget och dess lokaler.
 winterland-description: >
     Ett spel gjort i Unity. Spelet har en funktion som sparar
     data om spelarens framsteg så att spelet vet vilka banor spelaren
@@ -70,7 +70,7 @@ cmu-graphics-chess-description: >
     Spelet har stöd för att spela mot en annan spelare lokalt.
 skatterattsligt-forum-description: >
     En wordpress-hemsida för Skatterättsligt Forum, ett företag som
-    arrangerar seminarier och konferenser inom skatterätt.
+    arrangerar semi&shy;narier och konferenser inom skatterätt.
 
 github-repository-link-text: "GitHub"
 website-link-text: "Öppna hemsidan"
