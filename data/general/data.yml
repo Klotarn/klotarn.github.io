@@ -127,6 +127,31 @@ projects:
     start-year: "2024"
     end-month: october-short
     end-year: "2024"
+    images:
+      - image-url: "../images/ntb-biluthyrning-1.jpg"
+        image-thumbnail-url: "../images/ntb-biluthyrning-1-sm.jpg"
+        image-alt: "NTB Biluthyrning English Start View"
+        image-set: "ntb-biluthyrning-images"
+      - image-url: "../images/ntb-biluthyrning-2.jpg"
+        image-thumbnail-url: "../images/ntb-biluthyrning-2-sm.jpg"
+        image-alt: "NTB Biluthyrning Swedish Start View"
+        image-set: "ntb-biluthyrning-images"
+      - image-url: "../images/ntb-biluthyrning-3.jpg"
+        image-thumbnail-url: "../images/ntb-biluthyrning-3-sm.jpg"
+        image-alt: "NTB Biluthyrning English Car Selection"
+        image-set: "ntb-biluthyrning-images"
+      - image-url: "../images/ntb-biluthyrning-4.jpg"
+        image-thumbnail-url: "../images/ntb-biluthyrning-4-sm.jpg"
+        image-alt: "NTB Biluthyrning Page Footer"
+        image-set: "ntb-biluthyrning-images"
+      - image-url: "../images/ntb-biluthyrning-5.jpg"
+        image-thumbnail-url: "../images/ntb-biluthyrning-5-sm.jpg"
+        image-alt: "NTB Biluthyrning Admin Login"
+        image-set: "ntb-biluthyrning-images"
+      - image-url: "../images/ntb-biluthyrning-6.jpg"
+        image-thumbnail-url: "../images/ntb-biluthyrning-6-sm.jpg"
+        image-alt: "NTB Biluthyrning Admin Dashboard"
+        image-set: "ntb-biluthyrning-images"
     links:
       - link-text: github-repository-link-text
         link-url: "https://github.com/NTIG-Uppsala/TE4-VALE-Biluthyrning"
@@ -159,6 +184,15 @@ projects:
     start-year: "2021"
     end-month: november-short
     end-year: "2024"
+    images:
+      - image-url: "../images/bredbandsbotten-2.jpg"
+        image-thumbnail-url: "../images/bredbandsbotten-2-sm.jpg"
+        image-alt: "Bredbandsbotten Pyplot Graph"
+        image-set: "bredbandsbotten-images"
+      - image-url: "../images/bredbandsbotten-3.jpg"
+        image-thumbnail-url: "../images/bredbandsbotten-3-sm.jpg"
+        image-alt: "Bredbandsbotten output data spreadsheet"
+        image-set: "bredbandsbotten-images"
     links:
       - link-text: github-repository-link-text
         link-url: "https://github.com/Klotarn/bredbandsbotten"

@@ -27,9 +27,9 @@
 
 ### Projekt
 
--   [ ] drop shadow till bilder? dålig kontrast (v)
 -   [ ] snyggare länkar (v)
 -   [ ] Gör det tydligt att man kan klicka på bilderna? (g)
+-   [x] drop shadow till bilder? dålig kontrast (v)
 -   [x] Lightbox för bilder till projekt? (g)
 -   [x] Bilder för vissa projekt (ist för repositories)? (g)
 
@@ -63,6 +63,7 @@
 -   [ ] Vara konsekvent med mängd projektbilder (d)
 -   [ ] Features och kunskaper som krävts till projekt i dess beskrivningar? (g)
 -   [ ] startmånad för Winterland
+-   [ ] Gömda bilder?
 -   [x] "länk till hemsidan" & "länk till github-repo" (v)
 -   [x] Skatterättsligt Forum i portfolio (k)
 
@@ -77,4 +78,4 @@
 
 -   [ ] Privata repon eller ej?
 -   [ ] Länk till gammalt GitHub-repo för il forno magico?
--   [ ] ska datum på projekt vara när jag jobbat på dem eller när de jobbats på av vem som helst?
+-   [ ] ska datum på projekt vara när jag jobbat på dem eller när de jobbats på av vem som helst? (just nu är det när jag jobbat på dem)
