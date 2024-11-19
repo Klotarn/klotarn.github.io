@@ -55,6 +55,7 @@ svg {
 
 .icon-holder {
     width: 30px;
+    margin-right: 5px;
 }
 
 .icon-holder svg {

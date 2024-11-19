@@ -1,5 +1,7 @@
 ## Grafiska ändringar
 
+[Font Awesome](https://fontawesome.com/)
+
 ### Generellt
 
 -   [ ] Datum bättre responsivt
@@ -41,6 +43,7 @@
 ### Generellt
 
 -   [1] SVG-ikoner?
+-   [ ] Mörkertema?
 -   [ ] Laddningssidan bör fixas så att man inte tror att något har gått fel (antingen snabbare eller ändra texten)
 
 ### Utbildningar
