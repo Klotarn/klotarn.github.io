@@ -13,6 +13,8 @@
 
 -   [ ] Flytta gröna spalten? (d)
 -   [ ] mer utrymme mellan namn och "kompetenser"? (v)
+-   [ ] Gör det tydligt att man kan klicka på kontaktinfo
+-   [ ] Kontaktinfo -> Kontakt och plattformar?
 -   [x] prova olika alignments till "kompetenser" (v)
 -   [x] kompetenser vågrätt med streck eller punkter mellan? (v)
 -   [x] Kontakt -> gröna pelaren (v)
@@ -38,7 +40,7 @@
 
 ### Generellt
 
--   [ ] SVG-ikoner?
+-   [1] SVG-ikoner?
 -   [ ] Laddningssidan bör fixas så att man inte tror att något har gått fel (antingen snabbare eller ändra texten)
 
 ### Utbildningar

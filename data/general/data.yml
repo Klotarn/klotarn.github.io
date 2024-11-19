@@ -174,8 +174,8 @@ projects:
         image-alt: "Winterland Level 2"
         image-set: "winterland-images"
     links:
-      - link-text: github-repository-link-text
-        link-url: "https://github.com/Klotarn/Winterland"
+      # - link-text: github-repository-link-text
+      #   link-url: "https://github.com/Klotarn/Winterland"
 
   - project-name: "Bredbandsbotten"
     description: bredbandsbotten-description
@@ -194,8 +194,8 @@ projects:
         image-alt: "Bredbandsbotten output data spreadsheet"
         image-set: "bredbandsbotten-images"
     links:
-      - link-text: github-repository-link-text
-        link-url: "https://github.com/Klotarn/bredbandsbotten"
+      # - link-text: github-repository-link-text
+      #   link-url: "https://github.com/Klotarn/bredbandsbotten"
       # - link-text: download-link-text
       #   link-url: ""
 
@@ -225,27 +225,28 @@ projects:
 
 # prettier-ignore
 techniques:
+  - technique-name: "SCRUM"
+  - technique-name: "Git"
+  - technique-name: "C#"
+  - technique-name: "Unity"
+  - technique-name: "WPF"
+  - translated-technique-name: automatic-testing
+  - technique-name: "Python"
+  - technique-name: "Selenium"
+  - technique-name: "Playwright"
+  - technique-name: "FlaUI"
   - technique-name: "HTML"
   - technique-name: "CSS"
   - technique-name: "JavaScript"
-  - technique-name: "Python"
-  - technique-name: "C#"
-  - technique-name: "Unity"
-  - technique-name: "Git"
-  - technique-name: "Selenium"
-  - technique-name: "Playwright"
-  - translated-technique-name: automatic-testing
-  - technique-name: "WPF"
   - translated-technique-name: agile-programming
-  - technique-name: "SCRUM"
 
 # prettier-ignore
 languages:
-  - language-name: "swedish-name"
-    proficiency: "native"
-  - language-name: "english-name"
-    proficiency: "fluent"
-  - language-name: "spanish-name"
-    proficiency: "beginner"
-  - language-name: "japanese-name"
-    proficiency: "beginner"
+  - language-name: swedish-name
+    proficiency: native
+  - language-name: english-name
+    proficiency: fluent
+  - language-name: spanish-name
+    proficiency: beginner
+  - language-name: japanese-name
+    proficiency: beginner
