@@ -61,9 +61,9 @@
 
 .block-images a {
     width: 45%;
-    transition: 0.3s;
+    /* transition: 0.3s; */
 }
 
-.block-images a:hover {
+/* .block-images a:hover {
     opacity: 0.7;
-}
+} */

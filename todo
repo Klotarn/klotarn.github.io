@@ -4,7 +4,7 @@
 
 ### Generellt
 
--   [ ] Datum bättre responsivt
+-   [ ] Datum bättre responsivt -> top container med header, länkar o datum?
 -   [ ] är mw-75 en hackig lösning?
 -   [x] Datum stor bokstav i början på månadsförkortning
 -   [x] Superljusgrön istället för grå bakgrund? (eller [mönster](https://www.toptal.com/designers/subtlepatterns/)?) (d)
@@ -15,8 +15,9 @@
 
 -   [ ] Flytta gröna spalten? (d)
 -   [ ] mer utrymme mellan namn och "kompetenser"? (v)
--   [ ] Gör det tydligt att man kan klicka på kontaktinfo
--   [ ] Kontaktinfo -> Kontakt och plattformar?
+-   [ ] kontaktinfo och plattformar formatterade i sidhuvud, likt kompetenser?
+-   [x] Gör det tydligt att man kan klicka på kontaktinfo
+-   [x] Kontaktinfo -> Kontakt och plattformar?
 -   [x] prova olika alignments till "kompetenser" (v)
 -   [x] kompetenser vågrätt med streck eller punkter mellan? (v)
 -   [x] Kontakt -> gröna pelaren (v)
@@ -42,9 +43,9 @@
 
 ### Generellt
 
--   [1] SVG-ikoner?
 -   [ ] Mörkertema?
 -   [ ] Laddningssidan bör fixas så att man inte tror att något har gått fel (antingen snabbare eller ändra texten)
+-   [x] SVG-ikoner?
 
 ### Utbildningar
 
@@ -61,7 +62,6 @@
 
 -   [ ] inte för många kompetenser? (v)
 -   [ ] fundera över prioritering på kompetenser (v)
--   [ ] sociala medier (v)
 -   [ ] Intressen/hobbys? - visa att man är social
 -   [ ] Kunskaper ska ha nivå?
 -   [ ] Kunskaper += YAML (g)
@@ -69,6 +69,7 @@
 -   [ ] Kunskaper += LightBox? (g)
 -   [ ] excel/sheets
 -   [ ] photoshop
+-   [x] sociala medier (v)
 -   [x] kontakt (v)
 -   [x] "Programmeringsspråk" -> "Kunskaper"/"Tekniker" (HTML och CSS är inte programmeringsspråk) (k)
 
