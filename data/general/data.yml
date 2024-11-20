@@ -85,7 +85,7 @@ work-experiences:
 
 # prettier-ignore
 projects:
-  - project-name: "Bordsplaceringsgeneratorn"
+  - project-name: "Bordsplacerings&shy;generatorn"
     description: bordsplaceringsgeneratorn-description
     date: "2024"
     ongoing: true

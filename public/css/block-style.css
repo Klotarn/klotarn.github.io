@@ -13,26 +13,35 @@
 
 .block-top-content {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     text-align: left;
     margin-top: 0.5rem;
+}
+.block-top-content {
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* gap: 1rem; */
+    flex-wrap: wrap;
 }
 
 .block-title {
     font-size: 1.1rem;
     color: #000;
-    /* text-decoration: none; */
 }
-
-/*
-.block-title a:hover {
-    color: #555;
-} */
+.block-title {
+    margin-bottom: 0; /* Remove bottom margin */
+}
 
 .block-links {
     display: inline-block;
     vertical-align: bottom;
+}
+.block-links {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent the links from wrapping */
+    /* margin-left: 5px; */
 }
 
 .block-link {
@@ -42,15 +51,14 @@
     background-color: var(--bg-primary-subtle);
     color: var(--text-color-light-subtle);
     text-decoration: none;
-    padding: 2px;
-    margin-left: 1px;
-    margin-right: 1px;
+    padding: 2px 8px; /* Padding for better clickability */
+    /* margin-left: 5px; */
+    /* margin-right: 1px; */
     border: 1px solid var(--bg-primary-subtle);
-    /* border-left: 0px;
-    border-right: 0px; */
     border-top: 0px;
     border-bottom: 0px;
     border-radius: 5px;
+    white-space: nowrap; /* Prevent text wrapping inside links */
 }
 
 .block-link svg {
@@ -58,10 +66,14 @@
     width: 15px;
 }
 
-.block-date {
+/* .block-date {
     text-align: right;
+    } */
+.block-date {
+    margin-top: 0; /* Remove top margin */
+    /*order: 3; /* Keep date at the end by default */
 }
-
+    
 .block-image {
     width: 100%;
     height: auto;
@@ -73,16 +85,54 @@
 .block-images {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     margin-top: 0.5rem;
 }
 
 .block-images a {
     width: 45%;
-    /* transition: 0.3s; */
 }
 
-/* .block-images a:hover {
-    opacity: 0.7;
+/* Media Query for small screens */
+/* @media screen and (max-width: 992px) {
+    .block-links {
+        order: 2;
+    }
+
+    .block-date {
+        order: 1;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .block-links {
+        order: 1;
+    }
+
+    .block-date {
+        order: 2;
+    }
 } */
+
+@media (max-width: 440px) {
+    /* .block-title {
+        font-size: 1rem;
+    }
+
+    .block-link {
+        font-size: 0.8rem;
+    }
+
+    .block-date {
+        font-size: 0.8rem;
+    } */
+    /* .block-top-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .block-date {
+        margin-left: 0;
+    } */
+}

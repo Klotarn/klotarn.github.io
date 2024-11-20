@@ -67,7 +67,7 @@ svg {
     width: 100%;
 }
 
-.header+hr {
+.header + hr {
     border: solid;
     border-width: 1px;
     height: 0;
@@ -119,8 +119,16 @@ svg {
     align-items: center;
 }
 
+.alig-items-start {
+    align-items: start;
+}
+
 .align-items-flex-start {
     align-items: flex-start;
+}
+
+.gap-05 {
+    gap: 0.5rem;
 }
 
 .d-none {
@@ -224,10 +232,6 @@ svg {
     margin: 0;
 }
 
-.mt-05 {
-    margin-top: 0.3rem;
-}
-
 .m-1 {
     margin: 1rem;
 }
@@ -308,6 +312,14 @@ svg {
     margin-left: 0;
 }
 
+.ms-auto {
+    margin-left: auto;
+}
+
+.ms-05 {
+    margin-left: 0.5rem;
+}
+
 .ms-1 {
     margin-left: 1rem;
 }
@@ -324,10 +336,56 @@ svg {
     margin-left: 4rem;
 }
 
+/* margin-left-px classes */
+.ms-01px {
+    margin-left: 1px;
+}
+
+.ms-02px {
+    margin-left: 2px;
+}
+
+.ms-03px {
+    margin-left: 3px;
+}
+
+.ms-04px {
+    margin-left: 4px;
+}
+
+.ms-05px {
+    margin-left: 5px;
+}
+
+.ms-06px {
+    margin-left: 6px;
+}
+
+.ms-07px {
+    margin-left: 7px;
+}
+
+.ms-08px {
+    margin-left: 8px;
+}
+
+.ms-09px {
+    margin-left: 9px;
+}
+
+.ms-10px {
+    margin-left: 10px;
+}
+/*  */
+
 /*  */
 /* margin-right classes */
 .me-0 {
     margin-right: 0;
+}
+
+.me-auto {
+    margin-right: auto;
 }
 
 .me-1 {
@@ -346,10 +404,56 @@ svg {
     margin-right: 4rem;
 }
 
+/* margin-right-px classes */
+.me-01px {
+    margin-right: 1px;
+}
+
+.me-02px {
+    margin-right: 2px;
+}
+
+.me-03px {
+    margin-right: 3px;
+}
+
+.me-04px {
+    margin-right: 4px;
+}
+
+.me-05px {
+    margin-right: 5px;
+}
+
+.me-06px {
+    margin-right: 6px;
+}
+
+.me-07px {
+    margin-right: 7px;
+}
+
+.me-08px {
+    margin-right: 8px;
+}
+
+.me-09px {
+    margin-right: 9px;
+}
+
+.me-10px {
+    margin-right: 10px;
+}
+/*  */
+
 /*  */
 /* margin-top classes */
 .mt-0 {
     margin-top: 0;
+}
+
+.mt-03 {
+    margin-top: 0.3rem;
 }
 
 .mt-1 {
@@ -400,6 +504,10 @@ svg {
 
 .order-2 {
     order: 2;
+}
+
+.order-3 {
+    order: 3;
 }
 
 /*  */
@@ -546,6 +654,10 @@ svg {
 /* width classes */
 .w-0 {
     width: 0;
+}
+
+.w-auto {
+    width: auto;
 }
 
 .w-max-content {
@@ -713,12 +825,27 @@ svg {
     max-width: 100%;
 }
 
+/*  */
+
 /* max-width-content classes */
 .max-w-min-content {
     max-width: min-content;
 }
+
+.max-w-fit-content {
+    max-width: fit-content;
+}
+/*  */
 /*  */
 
+/* min-width classes */
+/* min-width-content classes */
+.min-w-min-content {
+    min-width: min-content;
+}
+.min-w-max-content {
+    min-width: max-content;
+}
 /*  */
 /*  */
 /*  */
