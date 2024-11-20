@@ -107,7 +107,7 @@ projects:
         image-thumbnail-url: "../images/winterland-2-sm.jpg"
         image-alt: "Winterland Level 2"
         image-set: "winterland-images"
-    links:
+    # links:
       # - link-text: github-repository-link-text
       #   link-url: "https://github.com/Klotarn/Winterland"
       #   svg: github-svg
@@ -148,7 +148,7 @@ projects:
         image-thumbnail-url: "../images/bredbandsbotten-3-sm.jpg"
         image-alt: "Bredbandsbotten output data spreadsheet"
         image-set: "bredbandsbotten-images"
-    links:
+    # links:
       # - link-text: github-repository-link-text
       #   link-url: "https://github.com/Klotarn/bredbandsbotten"
       #   svg: github-svg

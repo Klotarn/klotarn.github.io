@@ -1,215 +1,212 @@
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="../css/style.css" />
-        <link rel="stylesheet" type="text/css" href="../css/block-style.css" />
-        <link rel="stylesheet" type="text/css" href="../css/lightbox.css" />
-        <title>{{language.site-title}}</title>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/block-style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/lightbox.css" />
+    <title>{{language.site-title}}</title>
+</head>
 
-    <body>
-        <div id="main-container" class="container container-main justify-content-center flex-col flex-col-md mt-2 mt-1-md mt-0-sm">
-            <header id="header" class="container text-align-center bg-primary text-color-light flex-row flex-col-sm justify-content-space-evenly align-items-center">
-                <div id="profile-picture-container" class="visibility-collapse d-none d-none-sm p-1">
-                    <img id="profile-picture" src="{{general.profile-image}}" alt="{{general.my-name}}" id="profile-image" />
+<body>
+    <div id="main-container"
+        class="container container-main justify-content-center flex-col flex-col-md my-2 mt-1-md mt-0-sm">
+        <header id="header"
+            class="container text-align-center bg-primary text-color-light flex-row flex-col-sm justify-content-space-evenly align-items-center">
+            <div id="profile-picture-container" class="visibility-collapse d-none d-none-sm p-1">
+                <img id="profile-picture" src="{{general.profile-image}}" alt="{{general.my-name}}"
+                    id="profile-image" />
+            </div>
+
+            <section class="p-1">
+                <h1 class="header">{{general.my-name}}</h1>
+                <div id="titles" class="container justify-content-center flex-wrap">
+                    {{#each language.my-titles}}
+                    <p class="titles-item px-1 ps-07">{{this.title}}</p>
+                    {{/each}}
                 </div>
+            </section>
+        </header>
+        <div id="content-container" class="container justify-content-center flex-row flex-col-md">
+            <div id="primary-container" class="col w-100 order-2 order-2-md">
+                <section id="education-section" class="bg-white mt-1 p-1">
+                    <h2 class="header container"><span class="icon-holder"><svg class="svg-inline--fa fa-graduation-cap"
+                                aria-hidden="true" focusable="false" data-prefix="fas" data-icon="graduation-cap"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9l0 28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5l0-24.6c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z">
+                                </path>
+                            </svg><!-- <i class="fa-solid fa-graduation-cap"></i> Font Awesome fontawesome.com --></span>{{language.education-section-title}}
+                    </h2>
+                    {{#each general.educations}}
+                    <hr />
+                    <div class="block education-block">
+                        <div class="block-top-content flex-row align-items-center">
+                            <strong class="block-title education-name max-w-fit-content order-1">{{translate
+                                @root.language this.education-name}}</strong>
 
-                <section class="p-1">
-                    <h1 class="header">{{general.my-name}}</h1>
-                    <div id="titles" class="container justify-content-center flex-wrap">
-                        {{#each language.my-titles}}
-                            <p class="titles-item px-1 ps-07">{{this.title}}</p>
-                        {{/each}}
+                            <p class="block-date min-w-max-content max-w-fit-content ms-auto order-3">
+                                {{translate @root.language this.start-month}}
+                                {{this.start-year}}
+                                -
+                                {{#if this.ongoing}}
+                                {{@root.language.ongoing}}
+                                {{else}}
+                                {{translate @root.language this.end-month}}
+                                {{this.end-year}}
+                                {{/if}}
+                            </p>
+                        </div>
+                        <p class="block-info school-name">{{this.school-name}}</p>
                     </div>
+                    {{/each}}
                 </section>
-            </header>
-            <div id="content-container" class="container justify-content-center flex-row flex-col-md">
-                <div id="primary-container" class="col w-100 order-2 order-2-md">
-                    <section id="education-section" class="bg-white mt-1 p-1">
-                        <h2 class="header container"><span class="icon-holder"><svg
-                                    class="svg-inline--fa fa-graduation-cap"
-                                    aria-hidden="true"
-                                    focusable="false"
-                                    data-prefix="fas"
-                                    data-icon="graduation-cap"
-                                    role="img"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 640 512"
-                                    data-fa-i2svg=""
-                                ><path
-                                        fill="currentColor"
-                                        d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9l0 28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5l0-24.6c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"
-                                    ></path></svg><!-- <i class="fa-solid fa-graduation-cap"></i> Font Awesome fontawesome.com --></span>{{language.education-section-title}}</h2>
-                        {{#each general.educations}}
-                            <hr />
-                            <div class="block education-block">
-                                <div class="block-top-content flex-row align-items-center">
-                                    <strong class="block-title education-name max-w-fit-content order-1">{{translate @root.language this.education-name}}</strong>
+                <section id="work-experience-section" class="bg-white mt-1 p-1">
+                    <h2 class="header container">
+                        <span class="icon-holder">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="currentColor"
+                                    d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160l0 96 192 0 128 0 192 0 0-96c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zM512 288l-192 0 0 32c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-32L0 288 0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-128z" />
+                            </svg>
+                        </span>
+                        {{language.work-experience-section-title}}
+                    </h2>
+                    {{#each general.work-experiences}}
+                    <hr />
+                    <div class="block work-experience-block">
+                        <div class="block-top-content flex-row align-items-center">
+                            <strong
+                                class="block-title work-experience-company-name max-w-fit-content order-1">{{this.company-name}}</strong>
 
-                                    <p class="block-date min-w-max-content max-w-fit-content ms-auto order-3">
-                                        {{translate @root.language this.start-month}}
-                                        {{this.start-year}}
-                                        -
-                                        {{#if this.ongoing}}
-                                            {{@root.language.ongoing}}
-                                        {{else}}
-                                            {{translate @root.language this.end-month}}
-                                            {{this.end-year}}
-                                        {{/if}}
-                                    </p>
-                                </div>
-                                <p class="block-info school-name">{{this.school-name}}</p>
-                            </div>
-                        {{/each}}
-                    </section>
-                    <section id="work-experience-section" class="bg-white mt-1 p-1">
-                        <h2 class="header container">
-                            <span class="icon-holder">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512"
-                                ><!--!Font Awesome Free 6.7.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
-                                        fill="currentColor"
-                                        d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160l0 96 192 0 128 0 192 0 0-96c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zM512 288l-192 0 0 32c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-32L0 288 0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-128z"
-                                    /></svg>
-                            </span>
-                            {{language.work-experience-section-title}}
-                        </h2>
-                        {{#each general.work-experiences}}
-                            <hr />
-                            <div class="block work-experience-block">
-                                <div class="block-top-content flex-row align-items-center">
-                                    <strong class="block-title work-experience-company-name max-w-fit-content order-1">{{this.company-name}}</strong>
-
-                                    <p class="block-date min-w-max-content max-w-fit-content ms-auto order-3">
-                                        {{translate @root.language this.start-month}}
-                                        {{this.start-year}}
-                                        -
-                                        {{#if this.ongoing}}
-                                            {{@root.language.ongoing}}
-                                        {{else}}
-                                            {{translate @root.language this.end-month}}
-                                            {{this.end-year}}
-                                        {{/if}}
-                                    </p>
-                                </div>
-                                <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
-                            </div>
-                        {{/each}}
-                    </section>
-                    <section id="projects-section" class="bg-white mt-1 p-1">
-                        <h2 class="header container">
-                            <span class="icon-holder">
-                                <svg
-                                    class="svg-inline--fa fa-box-archive"
-                                    aria-hidden="true"
-                                    focusable="false"
-                                    data-prefix="fas"
-                                    data-icon="box-archive"
-                                    role="img"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512"
-                                    data-fa-i2svg=""
-                                >
-                                    <path
-                                        fill="currentColor"
-                                        d="M32 32l448 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96L0 64C0 46.3 14.3 32 32 32zm0 128l448 0 0 256c0 35.3-28.7 64-64 64L96 480c-35.3 0-64-28.7-64-64l0-256zm128 80c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0c-8.8 0-16 7.2-16 16z"
-                                    ></path>
-                                </svg>
-                            </span>
-                            {{language.projects-section-title}}</h2>
-                        {{#each general.projects}}
-                            <hr />
-                            <div class="block project-block">
-                                <div class="block-top-content flex-row align-items-center">
-                                    <strong class="block-title project-name max-w-fit-content order-1">{{{this.project-name}}}</strong>
-                                    <div class="block-links mt-0 order-2">
-                                        {{#each this.links}}
-                                            <a href="{{this.link-url}}" target="_blank" class="block-link ms-05px me-1px">
-                                                {{{translate @root.general this.svg}}}
-                                                {{translate @root.language this.link-text}}
-                                            </a>
-                                        {{/each}}
-                                    </div>
-                                    <p class="block-date min-w-max-content max-w-fit-content ms-auto order-3">
-                                        {{translate @root.language this.start-month}}
-                                        {{this.start-year}}
-                                        -
-                                        {{#if this.ongoing}}
-                                            {{@root.language.ongoing}}
-                                        {{else}}
-                                            {{translate @root.language this.end-month}}
-                                            {{this.end-year}}
-                                        {{/if}}
-                                    </p>
-                                </div>
-                                <div class="project-tech-stack tech-stack mt-1"><strong>{{{@root.language.tech-stack}}}: </strong><p>{{#if this.translated-tech-stack}}{{translate @root.language this.translated-tech-stack}}{{else}}{{this.tech-stack}}{{/if}}</p></div>
-                                <p class="block-info mt-03 project-description">{{{translate @root.language this.description}}}</p>
-                                <div class="block-images flex-wrap">
-                                    {{#each this.images}}
-                                        <a class="block-image-link" href="{{this.image-url}}" data-lightbox="{{this.image-set}}" data-title="{{this.image-alt}}"><img
-                                                src="{{this.image-thumbnail-url}}"
-                                                alt="{{this.image-alt}}"
-                                                class="block-image"
-                                            /></a>
+                            <p class="block-date min-w-max-content max-w-fit-content ms-auto order-3">
+                                {{translate @root.language this.start-month}}
+                                {{this.start-year}}
+                                -
+                                {{#if this.ongoing}}
+                                {{@root.language.ongoing}}
+                                {{else}}
+                                {{translate @root.language this.end-month}}
+                                {{this.end-year}}
+                                {{/if}}
+                            </p>
+                        </div>
+                        <p class="block-info work-experience-role">{{translate @root.language this.role}}</p>
+                    </div>
+                    {{/each}}
+                </section>
+                <section id="projects-section" class="bg-white mt-1 p-1">
+                    <h2 class="header container">
+                        <span class="icon-holder">
+                            <svg class="svg-inline--fa fa-box-archive" aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="box-archive" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M32 32l448 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96L0 64C0 46.3 14.3 32 32 32zm0 128l448 0 0 256c0 35.3-28.7 64-64 64L96 480c-35.3 0-64-28.7-64-64l0-256zm128 80c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0c-8.8 0-16 7.2-16 16z">
+                                </path>
+                            </svg>
+                        </span>
+                        {{language.projects-section-title}}
+                    </h2>
+                    {{#each general.projects}}
+                    <hr />
+                    <div class="block project-block">
+                        <div class="block-top-content flex-row align-items-center">
+                            <strong
+                                class="block-title project-name max-w-fit-content order-1">{{{this.project-name}}}</strong>
+                            {{!-- {{#if this.links}} --}}
+                                <div class="block-links mt-0 order-2">
+                                    {{#each this.links}}
+                                    <a href="{{this.link-url}}" target="_blank" class="block-link ms-05px me-1px">
+                                        {{{translate @root.general this.svg}}}
+                                        {{translate @root.language this.link-text}}
+                                    </a>
                                     {{/each}}
                                 </div>
+                            {{!-- {{/if}} --}}
+                            <p class="block-date min-w-max-content max-w-fit-content ms-auto order-3">
+                                {{translate @root.language this.start-month}}
+                                {{this.start-year}}
+                                -
+                                {{#if this.ongoing}}
+                                {{@root.language.ongoing}}
+                                {{else}}
+                                {{translate @root.language this.end-month}}
+                                {{this.end-year}}
+                                {{/if}}
+                            </p>
+                        </div>
+                        <div class="project-tech-stack tech-stack mt-1"><strong>{{{@root.language.tech-stack}}}:
+                            </strong>
+                            <p>{{#if this.translated-tech-stack}}{{translate @root.language
+                                this.translated-tech-stack}}{{else}}{{this.tech-stack}}{{/if}}</p>
+                        </div>
+                        <p class="block-info mt-03 project-description">{{{translate @root.language this.description}}}
+                        </p>
+                        {{#if this.images}}
+                            <div class="block-images flex-wrap">
+                                {{#each this.images}}
+                                <a class="block-image-link" href="{{this.image-url}}" data-lightbox="{{this.image-set}}"
+                                    data-title="{{this.image-alt}}"><img src="{{this.image-thumbnail-url}}"
+                                        alt="{{this.image-alt}}" class="block-image" /></a>
+                                {{/each}}
                             </div>
+                        {{/if}}
+                    </div>
+                    {{/each}}
+                </section>
+            </div>
+            <div id="secondary-container"
+                class="container flex-wrap text-align-center justify-content-space-evenly-md flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light w-330px w-100-md order-1 order-1-md me-1 me-0-md mt-1 p-1">
+                <div id="first-secondary-column" class="container flex-col max-w-min-content-md mx-auto-xs">
+                    <section id="contact-and-platforms-section" style="height: max-content;" class="mx-auto order-1-md">
+                        <h3 class="header mb-05">{{language.contact-and-platforms-title}}</h3>
+                        {{#each general.contact-and-platforms.links}}
+                        <p class="">
+                            <a class="link-subtle" href="{{this.href}}" target="_blank">{{{translate @root.general
+                                this.svg}}}{{this.text}}</a>
+                        </p>
+                        {{/each}}
+                        <p>{{general.contact-and-platforms.location}}</p>
+                    </section>
+
+                    <section id="languages-section" style="height: max-content;" class="mx-auto mt-1 order-1-md">
+                        <h3 class="header mb-05">{{language.language-section-title}}</h3>
+                        {{#each general.languages}}
+                        <div class="container justify-content-space-between">
+                            <p class="me-1">{{translate @root.language this.language-name}}</p>
+                            <p>{{translate @root.language this.proficiency}}</p>
+                        </div>
                         {{/each}}
                     </section>
+
+                    <section id="interests-section" style="height: max-content;" class="mx-auto mt-1 order-2-md">
+                        <h3 class="header mb-05">{{language.interests-section-title}}</h3>
+                        <ul class="list-type-circle text-align-start ms-1 ms-0-md">
+                            {{#each general.interests}}
+                            <li class="min-w-max-content">{{translate @root.language this.interest}}</li>
+                            {{/each}}
+                        </ul>
+                    </section>
                 </div>
-                <div
-                    id="secondary-container"
-                    class="container flex-wrap text-align-center justify-content-space-evenly-md flex-col flex-row-md flex-col-xs bg-primary-subtle text-color-light w-330px w-100-md order-1 order-1-md me-1 me-0-md mt-1 p-1"
-                >
-                    <div id="first-secondary-column" class="container flex-col max-w-min-content-md mx-auto-xs">
-                        <section id="contact-and-platforms-section" style="height: max-content;" class="mx-auto order-1-md">
-                            <h3 class="header mb-05">{{language.contact-and-platforms-title}}</h3>
-                            {{#each general.contact-and-platforms.links}}
-                                <p class="">
-                                    <a class="link-subtle" href="{{this.href}}" target="_blank">{{{translate @root.general this.svg}}}{{this.text}}</a>
-                                </p>
+
+                <div id="second-secondary-column" class="container flex-col">
+                    <section id="techniques-section" class="mx-auto order-2-md mt-1 mt-0-md mt-1-xs">
+                        <h3 class="header mb-05">{{language.techniques-section-title}}</h3>
+                        <ul class="list-type-circle text-align-start ms-1 ms-0-md">
+                            {{#each general.techniques}}
+                            <li>{{#if this.translated-technique-name}}{{translate @root.language
+                                this.translated-technique-name}}{{else}}{{this.technique-name}}{{/if}}</li>
                             {{/each}}
-                            <p>{{general.contact-and-platforms.location}}</p>
-                        </section>
-
-                        <section id="languages-section" style="height: max-content;" class="mx-auto mt-1 order-1-md">
-                            <h3 class="header mb-05">{{language.language-section-title}}</h3>
-                            {{#each general.languages}}
-                                <div class="container justify-content-space-between">
-                                    <p class="me-1">{{translate @root.language this.language-name}}</p>
-                                    <p>{{translate @root.language this.proficiency}}</p>
-                                </div>
-                            {{/each}}
-                        </section>
-
-                        <section id="interests-section" style="height: max-content;" class="mx-auto mt-1 order-2-md">
-                            <h3 class="header mb-05">{{language.interests-section-title}}</h3>
-                            <ul class="list-type-circle text-align-start ms-1 ms-0-md">
-                                {{#each general.interests}}
-                                    <li class="min-w-max-content">{{translate @root.language this.interest}}</li>
-                                {{/each}}
-                            </ul>
-                        </section>
-                    </div>
-
-                    <div id="second-secondary-column" class="container flex-col">
-                        <section id="techniques-section" class="mx-auto order-2-md mt-1 mt-0-md mt-1-xs">
-                            <h3 class="header mb-05">{{language.techniques-section-title}}</h3>
-                            <ul class="list-type-circle text-align-start ms-1 ms-0-md">
-                                {{#each general.techniques}}
-                                    <li>{{#if this.translated-technique-name}}{{translate @root.language this.translated-technique-name}}{{else}}{{this.technique-name}}{{/if}}</li>
-                                {{/each}}
-                            </ul>
-                        </section>
-                    </div>
+                        </ul>
+                    </section>
                 </div>
             </div>
         </div>
-        <script src="../js/main.js"></script>
-        <script src="../js/lightbox-plus-jquery.js"></script>
-    </body>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/lightbox-plus-jquery.js"></script>
+</body>
 
 </html>
