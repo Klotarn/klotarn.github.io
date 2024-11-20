@@ -63,12 +63,13 @@
 
 -   [ ] inte för många kompetenser? (v)
 -   [ ] fundera över prioritering på kompetenser (v)
--   [ ] Intressen/hobbys? - visa att man är social
+-   [ ] någon hobby som visar att man är social?
 -   [ ] Kunskaper ska ha nivå?
 -   [ ] Kunskaper += PHP (snart) (g)
 -   [ ] Kunskaper += LightBox? (g)
 -   [ ] handlebars
 -   [ ] unittest/unitest
+-   [x] Intressen/hobbys? - visa att man är social
 -   [x] excel/sheets
 -   [x] photoshop
 -   [x] Kunskaper += YAML (g)
@@ -86,9 +87,9 @@
 -   [ ] Vara konsekvent med mängd projektbilder (d)
 -   [ ] startmånad för Winterland
 -   [ ] Gömda bilder? (yml-attribut hidden: true/false)
--   [ ] "Tech stack"
 -   [ ] Solo project?
 -   [ ] Features och kunskaper som krävts till projekt i dess beskrivningar? (g)
+-   [x] "Tech stack"
 -   [x] "länk till hemsidan" & "länk till github-repo" (v)
 -   [x] Skatterättsligt Forum i portfolio (k)
 

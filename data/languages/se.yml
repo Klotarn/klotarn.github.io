@@ -5,6 +5,7 @@ work-experience-section-title: "Arbetslivserfarenhet"
 education-section-title: "Utbildning"
 techniques-section-title: "Kunskaper"
 language-section-title: "Språk"
+interests-section-title: "Intressen"
 
 # date variables
 ongoing: "pågående"
@@ -44,7 +45,7 @@ florista-description: >
     En hemsida för en påhittad florist. Hemsidan har en "dagens 
     kap"-funktion som visar en viss produkt från sortimentet till
     rabatterat pris samt lägger produkten högst upp i 
-    produkt&shy;gal&shy;ler&shy;iet. Hemsidan har också en funktion inter&shy;aktiv
+    produkt&shy;gal&shy;ler&shy;iet. Hemsidan har också en inter&shy;aktiv
     karta som visar var företaget finns.
 il-forno-magico-description: >
     En hemsida för en påhittad napoletansk pizzeria. Hemsidan använder
@@ -98,3 +99,9 @@ japanese-name: "Japanska"
 native: "Modersmål"
 fluent: "Flytande"
 beginner: "Nybörjare"
+
+# interests
+mixology: "Mixologi"
+drumming-and-songwriting: "Trummor och låtskrivande"
+programming: "Programmering"
+gaming: "Datorspelande"

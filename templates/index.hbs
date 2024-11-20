@@ -184,6 +184,15 @@
                                 </div>
                             {{/each}}
                         </section>
+
+                        <section id="interests-section" style="height: max-content;" class="mx-auto mt-1 order-2-md">
+                            <h3 class="header mb-05">{{language.interests-section-title}}</h3>
+                            <ul class="list-type-circle text-align-start ms-1 ms-0-md">
+                                {{#each general.interests}}
+                                    <li class="min-w-max-content">{{translate @root.language this.interest}}</li>
+                                {{/each}}
+                            </ul>
+                        </section>
                     </div>
 
                     <div id="second-secondary-column" class="container flex-col">

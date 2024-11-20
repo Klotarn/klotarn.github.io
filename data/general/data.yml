@@ -30,6 +30,12 @@ contact-and-platforms:
       #   svg: linkedin-svg
     location: "Uppsala, Sweden"
 
+interests:
+  - interest: mixology
+  - interest: drumming-and-songwriting
+  - interest: programming
+  - interest: gaming
+
 # prettier-ignore
 educations:
   - education-name: technical-college-graduate
