@@ -33,8 +33,8 @@
 
 ### Projekt
 
--   [ ] snyggare länkar (v)
--   [?] Gör det tydligt att man kan klicka på bilderna? (g)
+-   [ ] Gör det tydligt att man kan klicka på bilderna? (g)
+-   [x] snyggare länkar (v)
 -   [x] drop shadow till bilder? dålig kontrast (v)
 -   [x] Lightbox för bilder till projekt? (g)
 -   [x] Bilder för vissa projekt (ist för repositories)? (g)
@@ -73,6 +73,10 @@
 -   [x] kontakt (v)
 -   [x] "Programmeringsspråk" -> "Kunskaper"/"Tekniker" (HTML och CSS är inte programmeringsspråk) (k)
 
+### Arbetslivserfarenheter
+
+-   [ ] Fundera över vilka fler som bör läggas till
+
 ### Projekt
 
 -   [ ] Bättre bild till bordsplaceringsgeneratorn (utslumpade platser) (jpg-png) (k)
@@ -81,7 +85,7 @@
 -   [ ] Gömda bilder? (yml-attribut hidden: true/false)
 -   [ ] "Tech stack"
 -   [ ] Solo project?
--   [?] Features och kunskaper som krävts till projekt i dess beskrivningar? (g)
+-   [ ] Features och kunskaper som krävts till projekt i dess beskrivningar? (g)
 -   [x] "länk till hemsidan" & "länk till github-repo" (v)
 -   [x] Skatterättsligt Forum i portfolio (k)
 

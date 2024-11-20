@@ -32,11 +32,30 @@
 
 .block-links {
     display: inline-block;
+    vertical-align: bottom;
 }
 
 .block-link {
     font-size: 0.9rem;
     display: inline-block;
+
+    background-color: var(--bg-primary-subtle);
+    color: var(--text-color-light-subtle);
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 1px solid var(--bg-primary-subtle);
+    /* border-left: 0px;
+    border-right: 0px; */
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 5px;
+}
+
+.block-link svg {
+    vertical-align: text-bottom;
+    width: 15px;
 }
 
 .block-date {
