@@ -24,14 +24,6 @@
                         {{/each}}
                     </div>
                 </section>
-
-                {{!-- <div class="p-1 d-none">
-                <div id="social-media">
-                    {{#each general.social-media}}
-                    <a href="{{this.link}}" target="_blank" class="social-media-link">{{this.icon}}</a>
-                    {{/each}}
-                </div>
-            </div> --}}
             </header>
             <div id="content-container" class="container justify-content-center flex-row flex-col-md">
                 <div id="primary-container" class="col w-100 order-2 order-2-md">
@@ -174,7 +166,7 @@
                 >
                     <div id="first-secondary-column" class="container flex-col max-w-min-content-md mx-auto-xs">
                         <section id="contact-and-platforms-section" style="height: max-content;" class="mx-auto order-1-md">
-                            <h3 class="header">{{language.contact-and-platforms-title}}</h3>
+                            <h3 class="header mb-05">{{language.contact-and-platforms-title}}</h3>
                             {{#each general.contact-and-platforms.links}}
                                 <p class="">
                                     <a class="link-subtle" href="{{this.href}}" target="_blank">{{{translate @root.general this.svg}}}{{this.text}}</a>
@@ -184,7 +176,7 @@
                         </section>
 
                         <section id="languages-section" style="height: max-content;" class="mx-auto mt-1 order-1-md">
-                            <h3 class="header">{{language.language-section-title}}</h3>
+                            <h3 class="header mb-05">{{language.language-section-title}}</h3>
                             {{#each general.languages}}
                                 <div class="container justify-content-space-between">
                                     <p class="me-1">{{translate @root.language this.language-name}}</p>
@@ -196,7 +188,7 @@
 
                     <div id="second-secondary-column" class="container flex-col">
                         <section id="techniques-section" class="mx-auto order-2-md mt-1 mt-0-md mt-1-xs">
-                            <h3 class="header">{{language.techniques-section-title}}</h3>
+                            <h3 class="header mb-05">{{language.techniques-section-title}}</h3>
                             <ul class="list-type-circle text-align-start ms-1 ms-0-md">
                                 {{#each general.techniques}}
                                     <li>{{#if this.translated-technique-name}}{{translate @root.language this.translated-technique-name}}{{else}}{{this.technique-name}}{{/if}}</li>

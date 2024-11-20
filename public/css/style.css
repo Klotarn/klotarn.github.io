@@ -108,7 +108,7 @@ svg {
 
 .container-main {
     width: 1320px;
-    margin: 0 auto;
+    margin: 0 auto; /*TODO - convert to mx-auto*/
 }
 
 .flex-wrap {
