@@ -85,6 +85,27 @@ work-experiences:
 
 # prettier-ignore
 projects:
+  - project-name: "Winterland"
+    description: winterland-description
+    date: "2019-2024"
+    ongoing: true
+    start-month: 
+    start-year: "2019"
+    tech-stack: "C#, Unity, Photoshop"
+    images:
+      - image-url: "../images/winterland-1.jpg"
+        image-thumbnail-url: "../images/winterland-1-sm.jpg"
+        image-alt: "Winterland Level 1"
+        image-set: "winterland-images"
+      - image-url: "../images/winterland-2.jpg"
+        image-thumbnail-url: "../images/winterland-2-sm.jpg"
+        image-alt: "Winterland Level 2"
+        image-set: "winterland-images"
+    links:
+      # - link-text: github-repository-link-text
+      #   link-url: "https://github.com/Klotarn/Winterland"
+      #   svg: github-svg
+
   - project-name: "Bordsplacerings&shy;generatorn"
     description: bordsplaceringsgeneratorn-description
     date: "2024"
@@ -93,6 +114,7 @@ projects:
     start-year: "2024"
     end-month: november-short
     end-year: "2024"
+    tech-stack: "C#, WPF, FlaUI, XAML"
     images: 
       - image-url: "../images/bordsplaceringsgeneratorn.jpg"
         image-thumbnail-url: "../images/bordsplaceringsgeneratorn-sm.jpg"
@@ -101,6 +123,45 @@ projects:
     links:
       - link-text: github-repository-link-text
         link-url: "https://github.com/NTIG-Uppsala/Classroom-Seating-Planner"
+        svg: github-svg
+        
+  - project-name: "Bredbandsbotten"
+    description: bredbandsbotten-description
+    ongoing: false
+    start-month: october-short
+    start-year: "2021"
+    end-month: november-short
+    end-year: "2024"
+    tech-stack: "Python, Pyplot, Excel"
+    images:
+      - image-url: "../images/bredbandsbotten-2.jpg"
+        image-thumbnail-url: "../images/bredbandsbotten-2-sm.jpg"
+        image-alt: "Bredbandsbotten Pyplot Graph"
+        image-set: "bredbandsbotten-images"
+      - image-url: "../images/bredbandsbotten-3.jpg"
+        image-thumbnail-url: "../images/bredbandsbotten-3-sm.jpg"
+        image-alt: "Bredbandsbotten output data spreadsheet"
+        image-set: "bredbandsbotten-images"
+    links:
+      # - link-text: github-repository-link-text
+      #   link-url: "https://github.com/Klotarn/bredbandsbotten"
+      #   svg: github-svg
+      # - link-text: download-link-text
+      #   link-url: ""
+      #   svg: download-svg
+
+  - project-name: "CMU Graphics Chess"
+    description: cmu-graphics-chess-description
+    date: "2022-05-24"
+    ongoing: false
+    start-month: may-short
+    start-year: "2022"
+    end-month: november-short
+    end-year: "2024"
+    tech-stack: "Python, CMU Graphics"
+    links:
+      - link-text: github-repository-link-text
+        link-url: "https://github.com/Klotarn/chess"
         svg: github-svg
 
   - project-name: "Florista"
@@ -111,6 +172,7 @@ projects:
     start-year: "2024"
     end-month: october-short
     end-year: "2024"
+    tech-stack: "HTML, CSS, JavaScript, Playwright, Unittest, Handlebars, YAML"
     images:
       - image-url: "../images/florista-1.jpg"
         image-thumbnail-url: "../images/florista-1-sm.jpg"
@@ -136,6 +198,7 @@ projects:
     start-year: "2024"
     end-month: september-short
     end-year: "2024"
+    tech-stack: "HTML, CSS, JavaScript, Selenium, Unittest, Bootstrap, YAML"
     images:
       - image-url: "../images/il-forno-magico.jpg"
         image-thumbnail-url: "../images/il-forno-magico-sm.jpg"
@@ -157,6 +220,7 @@ projects:
     start-year: "2024"
     end-month: october-short
     end-year: "2024"
+    tech-stack: "HTML, CSS, JavaScript, Playwright, Unittest, Handlebars, YAML"
     images:
       - image-url: "../images/ntb-biluthyrning-1.jpg"
         image-thumbnail-url: "../images/ntb-biluthyrning-1-sm.jpg"
@@ -190,63 +254,6 @@ projects:
         link-url: "https://ntb-biluthyrning.ntig.dev/"
         svg: globe-svg
 
-  - project-name: "Winterland"
-    description: winterland-description
-    date: "2019-2024"
-    ongoing: true
-    start-month: 
-    start-year: "2019"
-    images:
-      - image-url: "../images/winterland-1.jpg"
-        image-thumbnail-url: "../images/winterland-1-sm.jpg"
-        image-alt: "Winterland Level 1"
-        image-set: "winterland-images"
-      - image-url: "../images/winterland-2.jpg"
-        image-thumbnail-url: "../images/winterland-2-sm.jpg"
-        image-alt: "Winterland Level 2"
-        image-set: "winterland-images"
-    links:
-      # - link-text: github-repository-link-text
-      #   link-url: "https://github.com/Klotarn/Winterland"
-      #   svg: github-svg
-
-  - project-name: "Bredbandsbotten"
-    description: bredbandsbotten-description
-    ongoing: false
-    start-month: october-short
-    start-year: "2021"
-    end-month: november-short
-    end-year: "2024"
-    images:
-      - image-url: "../images/bredbandsbotten-2.jpg"
-        image-thumbnail-url: "../images/bredbandsbotten-2-sm.jpg"
-        image-alt: "Bredbandsbotten Pyplot Graph"
-        image-set: "bredbandsbotten-images"
-      - image-url: "../images/bredbandsbotten-3.jpg"
-        image-thumbnail-url: "../images/bredbandsbotten-3-sm.jpg"
-        image-alt: "Bredbandsbotten output data spreadsheet"
-        image-set: "bredbandsbotten-images"
-    links:
-      # - link-text: github-repository-link-text
-      #   link-url: "https://github.com/Klotarn/bredbandsbotten"
-      #   svg: github-svg
-      # - link-text: download-link-text
-      #   link-url: ""
-      #   svg: download-svg
-
-  - project-name: "CMU Graphics Chess"
-    description: cmu-graphics-chess-description
-    date: "2022-05-24"
-    ongoing: false
-    start-month: may-short
-    start-year: "2022"
-    end-month: november-short
-    end-year: "2024"
-    links:
-      - link-text: github-repository-link-text
-        link-url: "https://github.com/Klotarn/chess"
-        svg: github-svg
-
   - project-name: "Skatterättsligt Forum"
     description: skatterattsligt-forum-description
     date: "2023-2024"
@@ -255,6 +262,7 @@ projects:
     start-year: "2023"
     end-month: november-short
     end-year: "2024"
+    tech-stack: "HTML, CSS, Wordpress"
     links:
       - link-text: website-link-text
         link-url: "https://www.skatterattsligtforum.se/"
@@ -274,7 +282,10 @@ techniques:
   - technique-name: "FlaUI"
   - technique-name: "HTML"
   - technique-name: "CSS"
+  - technique-name: "YAML"
   - technique-name: "JavaScript"
+  - technique-name: "Excel"
+  - technique-name: "Photoshop"
   - translated-technique-name: agile-programming
 
 # prettier-ignore

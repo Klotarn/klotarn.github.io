@@ -3,7 +3,7 @@ contact-and-platforms-title: "Kontakt och plattformar"
 projects-section-title: "Projekt"
 work-experience-section-title: "Arbetslivserfarenhet"
 education-section-title: "Utbildning"
-techniques-section-title: "Tekniker"
+techniques-section-title: "Kunskaper"
 language-section-title: "Språk"
 
 # date variables
@@ -75,6 +75,8 @@ skatterattsligt-forum-description: >
 github-repository-link-text: "GitHub"
 website-link-text: "Öppna hemsidan"
 download-link-text: "Ladda ner"
+
+tech-stack: "Tekniker"
 
 # prettier-ignore
 my-titles:

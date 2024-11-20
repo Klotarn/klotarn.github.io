@@ -145,8 +145,8 @@
                                         {{/if}}
                                     </p>
                                 </div>
-
-                                <p class="block-info mt-1 project-description">{{{translate @root.language this.description}}}</p>
+                                <p class="project-tech-stack tech-stack mt-1"><strong>{{{@root.language.tech-stack}}}: </strong>{{#if this.translated-tech-stack}}{{translate @root.language this.translated-tech-stack}}{{else}}{{this.tech-stack}}{{/if}}</p>
+                                <p class="block-info mt-03 project-description">{{{translate @root.language this.description}}}</p>
                                 <div class="block-images flex-wrap">
                                     {{#each this.images}}
                                         <a class="block-image-link" href="{{this.image-url}}" data-lightbox="{{this.image-set}}" data-title="{{this.image-alt}}"><img
