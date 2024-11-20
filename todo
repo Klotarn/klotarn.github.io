@@ -4,6 +4,7 @@
 
 ### Generellt
 
+-   [ ] Säkerställ responsivitet datum på arbetslivserfarenhet o utbildningar
 -   [x] Datum bättre responsivt -> top container med header, länkar o datum?
 -   [x] Datum stor bokstav i början på månadsförkortning
 -   [x] Superljusgrön istället för grå bakgrund? (eller [mönster](https://www.toptal.com/designers/subtlepatterns/)?) (d)
