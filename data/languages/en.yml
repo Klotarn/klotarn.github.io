@@ -1,0 +1,97 @@
+site-title: "Jesper's Portfolio"
+contact-and-platforms-title: "Contact and Platforms"
+projects-section-title: "Projects"
+work-experience-section-title: "Work Experience"
+education-section-title: "Education"
+techniques-section-title: "Skills"
+language-section-title: "Languages"
+
+# date variables
+ongoing: "ongoing"
+january-short: "Jan"
+february-short: "Feb"
+march-short: "Mar"
+april-short: "Apr"
+may-short: "May"
+june-short: "Jun"
+july-short: "Jul"
+august-short: "Aug"
+september-short: "Sep"
+october-short: "Oct"
+november-short: "Nov"
+december-short: "Dec"
+
+# education
+technical-college-graduate: "Technical College Graduate"
+international-bartender-course: "4-Week International Bartender Course"
+technical-programme: "Technical Programme"
+
+# work experiences
+hambergs-catering-role: "Waiter, Bartender, Head Waiter"
+flustret-role: "Bartender"
+clarion-hotel-gillet-role: "Waiter, Bartender"
+skatterattsligt-forum-role: "Web Developer"
+
+# projects
+bordsplaceringsgeneratorn-description: >
+    A tool for teachers to generate seating arrangements for
+    classes. The tool is a WPF application written in C# that uses
+    an algorithm to generate seating based on user preferences,
+    e.g., ensuring students who shouldn't sit next to each other are separated,
+    or that students needing proximity to the board are seated close to it.
+florista-description: >
+    A website for a fictional florist. The website includes a "Today's 
+    Special" feature that highlights a product from the catalog at a 
+    discounted price and displays it at the top of the product gallery.
+    The site also features an interactive map showing the business's location.
+il-forno-magico-description: >
+    A website for a fictional Neapolitan pizzeria. The site uses
+    Bootstrap, includes a slideshow, and features a search function
+    to locate pizzas on the menu.
+ntb-biluthyrning-description: >
+    A website for a fictional car rental company. The site has a
+    language-switching feature and an option to toggle between
+    different company locations. It also includes an admin function
+    to modify the basic company and location information.
+winterland-description: >
+    A game developed in Unity. It includes a feature to save
+    player progress, allowing the game to track which levels
+    are accessible. This is an unfinished project I occasionally
+    work on in my free time.
+bredbandsbotten-description: >
+    A Python program that measures internet connection speeds over
+    time, displays graphs of the results using Pyplot, and saves
+    the data to an xls file.
+cmu-graphics-chess-description: >
+    A chess game written in Python using the CMU Graphics Library.
+    The game supports local multiplayer.
+skatterattsligt-forum-description: >
+    A WordPress website for Skatterättsligt Forum, a company that
+    organizes tax law seminars and conferences.
+
+github-repository-link-text: "GitHub"
+website-link-text: "Open Website"
+download-link-text: "Download"
+
+tech-stack: "Tech Stack"
+
+# prettier-ignore
+my-titles:
+  - title: "Web Developer"
+  - title: "Software Developer"
+  - title: "Head Waiter"
+  - title: "Bartender"
+  - title: "Waiter"
+
+# skills
+automatic-testing: "Automated Testing"
+agile-programming: "Agile Programming"
+
+# languages
+swedish-name: "Swedish"
+english-name: "English"
+spanish-name: "Spanish"
+japanese-name: "Japanese"
+native: "Native"
+fluent: "Fluent"
+beginner: "Beginner"
