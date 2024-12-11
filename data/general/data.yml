@@ -130,6 +130,9 @@ projects:
       - link-text: github-repository-link-text
         link-url: "https://github.com/NTIG-Uppsala/Classroom-Seating-Planner"
         svg: github-svg
+      - link-text: download-link-text
+        link-url: "https://github.com/NTIG-Uppsala/Classroom-Seating-Planner/releases"
+        svg: download-svg
         
   - project-name: "Bredbandsbotten"
     description: bredbandsbotten-description
