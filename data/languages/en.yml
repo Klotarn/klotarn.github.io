@@ -77,11 +77,10 @@ tech-stack: "Tech Stack"
 
 # prettier-ignore
 my-titles:
-  - title: "Web Developer"
+  - title: "Game Developer"
   - title: "Software Developer"
   - title: "Head Waiter"
   - title: "Bartender"
-  - title: "Waiter"
 
 # skills
 automatic-testing: "Automated Testing"

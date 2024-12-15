@@ -81,11 +81,10 @@ tech-stack: "Tekniker"
 
 # prettier-ignore
 my-titles:
-  - title: "Webbutvecklare"
+  - title: "Spelutvecklare"
   - title: "Mjukvaruutvecklare"
   - title: "Hovmästare"
   - title: "Bartender"
-  - title: "Servitör"
 
 # skills
 automatic-testing: "Automatiserad testning"
