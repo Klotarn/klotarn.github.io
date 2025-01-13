@@ -36,6 +36,7 @@
 ### Projekt
 
 -   [ ] Gör det tydligt att man kan klicka på bilderna? (g)
+-   [ ] Ändra så att förstorade bilder är lagom stora
 -   [x] snyggare länkar (v)
 -   [x] drop shadow till bilder? dålig kontrast (v)
 -   [x] Lightbox för bilder till projekt? (g)
@@ -46,7 +47,8 @@
 ### Generellt
 
 -   [ ] Mörkertema?
--   [ ] Laddningssidan bör fixas så att man inte tror att något har gått fel (antingen snabbare eller ändra texten)
+-   [ ] Lägg till länkar på laddningssidan ifall det inte skulle ske automatiskt
+-   [x] Laddningssidan bör fixas så att man inte tror att något har gått fel (antingen snabbare eller ändra texten)
 -   [x] SVG-ikoner?
 
 ### Utbildningar
@@ -84,12 +86,12 @@
 
 ### Projekt
 
--   [ ] Bättre bild till bordsplaceringsgeneratorn (utslumpade platser) (jpg-png) (k)
 -   [ ] Vara konsekvent med mängd projektbilder (d)
 -   [ ] startmånad för Winterland
 -   [ ] Gömda bilder? (yml-attribut hidden: true/false)
--   [ ] Solo project?
+-   [ ] Solo/group project?
 -   [ ] Features och kunskaper som krävts till projekt i dess beskrivningar? (g)
+-   [x] Bättre bild till bordsplaceringsgeneratorn (utslumpade platser) (jpg-png) (k)
 -   [x] "Tech stack"
 -   [x] "länk till hemsidan" & "länk till github-repo" (v)
 -   [x] Skatterättsligt Forum i portfolio (k)
