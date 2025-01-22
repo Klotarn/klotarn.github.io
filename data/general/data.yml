@@ -13,28 +13,28 @@ contact-and-platforms:
     email: "jesper@cejie.se"
     phone: "+46 72 700 20 23"
     links:
-      - text: "072-700 20 23"
-        href: "tel:+46727002023"
-        svg: phone-svg
-      - text: "jesper@cejie.se"
-        href: "mailto:jesper@cejie.se"
-        svg: envelope-svg
-      - text: "GitHub"
-        href: "https://github.com/Klotarn"
-        svg: github-svg
-      - text: "Instagram"
-        href: "https://www.instagram.com/jespervikingcj/"
-        svg: instagram-svg
-      # - text: "LinkedIn"
-      #   href: "https://www.linkedin.com/in/jesper-cejie-9443a0245/"
-      #   svg: linkedin-svg
+        - text: "072-700 20 23"
+          href: "tel:+46727002023"
+          svg: phone-svg
+        - text: "jesper@cejie.se"
+          href: "mailto:jesper@cejie.se"
+          svg: envelope-svg
+        - text: "GitHub"
+          href: "https://github.com/Klotarn"
+          svg: github-svg
+        - text: "Instagram"
+          href: "https://www.instagram.com/jespervikingcj/"
+          svg: instagram-svg
+        # - text: "LinkedIn"
+        #   href: "https://www.linkedin.com/in/jesper-cejie-9443a0245/"
+        #   svg: linkedin-svg
     location: "Uppsala, Sweden"
 
 interests:
-  - interest: mixology
-  - interest: drumming-and-songwriting
-  - interest: programming
-  - interest: gaming
+    - interest: mixology
+    - interest: drumming-and-songwriting
+    - interest: programming
+    - interest: gaming
 
 # prettier-ignore
 educations:
@@ -260,7 +260,7 @@ projects:
         link-url: "https://github.com/NTIG-Uppsala/TE4-VALE-Biluthyrning"
         svg: github-svg
       - link-text: website-link-text
-        link-url: "https://ntb-biluthyrning.ntig.dev/"
+        link-url: "https://ntbbiluthyrning.ntig.dev/"
         svg: globe-svg
 
   - project-name: "Skatterättsligt Forum"
