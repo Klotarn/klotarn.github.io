@@ -107,10 +107,10 @@ projects:
         image-thumbnail-url: "../images/winterland-2-sm.jpg"
         image-alt: "Winterland Level 2"
         image-set: "winterland-images"
-    # links:
-      # - link-text: github-repository-link-text
-      #   link-url: "https://github.com/Klotarn/Winterland"
-      #   svg: github-svg
+    links:
+      - link-text: download-link-text
+        link-url: "../files/winterland_installer.exe"
+        svg: download-svg
 
   - project-name: "Bordsplacerings&shy;generatorn"
     description: bordsplaceringsgeneratorn-description
