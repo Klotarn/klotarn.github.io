@@ -62,11 +62,12 @@ educations:
 
 # prettier-ignore
 work-experiences:
-  - company-name: "Hambergs Catering AB"
-    role: hambergs-catering-role
-    ongoing: true
-    start-month: august-short
-    start-year: "2022"
+  - company-name: "Sustainable Action"
+    role: sustainable-action-role
+    start-year: "2025"
+    start-month: february-short
+    end-year: "2025"
+    end-month: april-short
   - company-name: "Skatterättsligt Forum"
     role: skatterattsligt-forum-role
     ongoing: true
@@ -74,6 +75,11 @@ work-experiences:
     start-year: "2023"
     end-month: may-short
     end-year: "2025"
+  - company-name: "Hambergs Catering AB"
+    role: hambergs-catering-role
+    ongoing: true
+    start-month: august-short
+    start-year: "2022"
   - company-name: "Clarion Hotel Gillet"
     role: clarion-hotel-gillet-role
     ongoing: true
