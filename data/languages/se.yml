@@ -60,8 +60,15 @@ ntb-biluthyrning-description: >
 winterland-description: >
     Ett spel gjort i Unity. Spelet har en funktion som sparar
     data om spelarens framsteg så att spelet vet vilka banor spelaren
-    ska kunna komma åt. Detta är ett ofärdigt projekt som jag ibland
-    arbetar på under min fritid.
+    ska kunna komma åt. Det finns även en enklare bossfajt med spel&shy;musik
+    som anpassar sig efter spelets händelse&shy;förlopp. Detta är ett ofärdigt
+    projekt som jag ibland arbetar på under min fritid.
+sustainable-action-climate-coordination-tool-description: >
+    Ett verktyg för att underlätta koordinerat arbete för klimat&shy;omställning.
+    Verktyget är skrivet med NextJS och an&shy;vänder Yarn som paket&shy;hanterare.
+    Under min tid som med&shy;verkande i Sustainable Action har jag bidragit till
+    inter&shy;national&shy;isering av verktyget samt implementerat hämtning av historisk
+    data från API:er för att visa i grafer.
 bredbandsbotten-description: >
     Ett program skrivet i Python som mäter internetanslutningens
     hastighet under en period, visar grafer av resultatet med hjälp av
@@ -85,6 +92,10 @@ my-titles:
   - title: "Mjukvaruutvecklare"
   - title: "Hovmästare"
   - title: "Bartender"
+
+# tech-names
+dynamic-music: "Dynamisk musik"
+api-integration: "API-integration"
 
 # skills
 automatic-testing: "Automatiserad testning"

@@ -58,6 +58,11 @@ winterland-description: >
     player progress, allowing the game to track which levels
     are accessible. This is an unfinished project I occasionally
     work on in my free time.
+sustainable-action-climate-coordination-tool-description: >
+    A tool for facilitating coordinated efforts in climate transition. The tool
+    is written in NextJS and uses Yarn as a package manager. During my time as A
+    con&shy;tributor to Sustainable Action, I have contributed to the inter&shy;national&shy;ization
+    of the tool and im&shy;plemen&shy;ted fetching historical data from APIs to display in graphs.
 bredbandsbotten-description: >
     A Python program that measures internet connection speeds over
     time, displays graphs of the results using Pyplot, and saves
@@ -81,6 +86,10 @@ my-titles:
   - title: "Software Developer"
   - title: "Head Waiter"
   - title: "Bartender"
+
+# tech-names
+dynamic-music: "Dynamic music"
+api-integration: "API Integration"
 
 # skills
 automatic-testing: "Automated Testing"

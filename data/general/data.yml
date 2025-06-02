@@ -67,27 +67,27 @@ work-experiences:
     ongoing: true
     start-month: august-short
     start-year: "2022"
-  - company-name: "Flustret"
-    role: flustret-role
-    ongoing: true
-    start-month: march-short
-    start-year: "2024"
-    end-month: september-short
-    end-year: "2024"
-  - company-name: "Clarion Hotel Gillet"
-    role: clarion-hotel-gillet-role
-    ongoing: true
-    start-month: august-short
-    start-year: "2024"
-    end-month: november-short
-    end-year: "2024"
   - company-name: "Skatterättsligt Forum"
     role: skatterattsligt-forum-role
     ongoing: true
     start-month: august-short
     start-year: "2023"
-    end-month: november-short
-    end-year: "2024"
+    end-month: may-short
+    end-year: "2025"
+  - company-name: "Clarion Hotel Gillet"
+    role: clarion-hotel-gillet-role
+    ongoing: true
+    start-month: august-short
+    start-year: "2024"
+    end-month: may-short
+    end-year: "2025"
+  - company-name: "Flustret"
+    role: flustret-role
+    ongoing: false
+    start-month: march-short
+    start-year: "2024"
+    end-month: january-short
+    end-year: "2025"
 
 # prettier-ignore
 projects:
@@ -95,9 +95,14 @@ projects:
     description: winterland-description
     date: "2019-2024"
     ongoing: true
-    start-month: 
     start-year: "2019"
-    tech-stack: "C#, Unity, Photoshop"
+    start-month: 
+    tech-stack: 
+      - tech-name: "C#"
+      - tech-name: "Unity"
+      - tech-name: "Photoshop"
+      - tech-name: dynamic-music
+        translate: true
     images:
       - image-url: "../images/winterland-1.jpg"
         image-thumbnail-url: "../images/winterland-1-sm.jpg"
@@ -112,15 +117,41 @@ projects:
         link-url: "../files/winterland_installer.exe"
         svg: download-svg
 
+  - project-name: "Sustainable Action Climate Coordination Tool"
+    description: sustainable-action-climate-coordination-tool-description
+    ongoing: false
+    start-year: "2025"
+    start-month: february-short
+    end-year: "2025"
+    end-month: april-short
+    tech-stack:
+      - tech-name: "TypeScript"
+      - tech-name: "React"
+      - tech-name: "NextJS"
+      - tech-name: "Yarn"
+      - tech-name: api-integration
+        translate: true
+      - tech-name: "UX"
+      - tech-name: "HTML"
+      - tech-name: "CSS"
+    links:
+      - link-text: website-link-text
+        link-url: "https://verktyg.sustainable-action.org/"
+        svg: globe-svg
+
   - project-name: "Bordsplacerings&shy;generatorn"
     description: bordsplaceringsgeneratorn-description
     date: "2024"
-    ongoing: true
-    start-month: october-short
+    ongoing: false
     start-year: "2024"
-    end-month: november-short
+    start-month: october-short
     end-year: "2024"
-    tech-stack: "C#, WPF, FlaUI, XAML"
+    end-month: november-short
+    tech-stack:
+      - tech-name: "C#"
+      - tech-name: "WPF"
+      - tech-name: "FlaUI"
+      - tech-name: "XAML"
     images: 
       - image-url: "../images/bordsplaceringsgeneratorn.jpg"
         image-thumbnail-url: "../images/bordsplaceringsgeneratorn-sm.jpg"
@@ -141,7 +172,10 @@ projects:
     start-year: "2021"
     end-month: november-short
     end-year: "2024"
-    tech-stack: "Python, Pyplot, Excel"
+    tech-stack:
+      - tech-name: "Python"
+      - tech-name: "Pyplot"
+      - tech-name: "Excel"
     images:
       - image-url: "../images/bredbandsbotten-2.jpg"
         image-thumbnail-url: "../images/bredbandsbotten-2-sm.jpg"
@@ -167,7 +201,9 @@ projects:
     start-year: "2022"
     end-month: november-short
     end-year: "2024"
-    tech-stack: "Python, CMU Graphics"
+    tech-stack:
+      - tech-name: "Python"
+      - tech-name: "CMU Graphics"
     links:
       - link-text: github-repository-link-text
         link-url: "https://github.com/Klotarn/chess"
@@ -181,7 +217,14 @@ projects:
     start-year: "2024"
     end-month: october-short
     end-year: "2024"
-    tech-stack: "HTML, CSS, JavaScript, Playwright, Unittest, Handlebars, YAML"
+    tech-stack:
+      - tech-name: "HTML"
+      - tech-name: "CSS"
+      - tech-name: "JavaScript"
+      - tech-name: "Playwright"
+      - tech-name: "Unittest"
+      - tech-name: "Handlebars"
+      - tech-name: "YAML"
     images:
       - image-url: "../images/florista-1.jpg"
         image-thumbnail-url: "../images/florista-1-sm.jpg"
@@ -207,7 +250,14 @@ projects:
     start-year: "2024"
     end-month: september-short
     end-year: "2024"
-    tech-stack: "HTML, CSS, JavaScript, Selenium, Unittest, Bootstrap, YAML"
+    tech-stack:
+      - tech-name: "HTML"
+      - tech-name: "CSS"
+      - tech-name: "JavaScript"
+      - tech-name: "Selenium"
+      - tech-name: "Unittest"
+      - tech-name: "Bootstrap"
+      - tech-name: "YAML"
     images:
       - image-url: "../images/il-forno-magico.jpg"
         image-thumbnail-url: "../images/il-forno-magico-sm.jpg"
@@ -229,7 +279,14 @@ projects:
     start-year: "2024"
     end-month: october-short
     end-year: "2024"
-    tech-stack: "HTML, CSS, JavaScript, Playwright, Unittest, Handlebars, YAML"
+    tech-stack:
+      - tech-name: "HTML"
+      - tech-name: "CSS"
+      - tech-name: "JavaScript"
+      - tech-name: "Playwright"
+      - tech-name: "Unittest"
+      - tech-name: "Handlebars"
+      - tech-name: "YAML"
     images:
       - image-url: "../images/ntb-biluthyrning-1.jpg"
         image-thumbnail-url: "../images/ntb-biluthyrning-1-sm.jpg"
@@ -271,7 +328,10 @@ projects:
     start-year: "2023"
     end-month: november-short
     end-year: "2024"
-    tech-stack: "HTML, CSS, Wordpress"
+    tech-stack:
+      - tech-name: "HTML"
+      - tech-name: "CSS"
+      - tech-name: "Wordpress"
     links:
       - link-text: website-link-text
         link-url: "https://www.skatterattsligtforum.se/"
