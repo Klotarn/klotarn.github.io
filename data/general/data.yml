@@ -25,9 +25,9 @@ contact-and-platforms:
         - text: "Instagram"
           href: "https://www.instagram.com/jespervikingcj/"
           svg: instagram-svg
-        # - text: "LinkedIn"
-        #   href: "https://www.linkedin.com/in/jesper-cejie-9443a0245/"
-        #   svg: linkedin-svg
+        - text: "LinkedIn"
+          href: "https://www.linkedin.com/in/jesper-cejie-9443a0245/"
+          svg: linkedin-svg
     location: "Uppsala, Sweden"
 
 interests:
@@ -37,8 +37,10 @@ interests:
     - interest: gaming
 
 # prettier-ignore
+show-educations: true
 educations:
   - education-name: technical-college-graduate
+    show: true
     school-name: "NTI-Gymnasiet Uppsala"
     ongoing: true
     start-month: august-short
@@ -46,6 +48,7 @@ educations:
     end-month: june-short
     end-year: "2025"
   - education-name: international-bartender-course
+    show: false
     school-name: "European Bartender School"
     ongoing: false
     start-month: april-short
@@ -53,6 +56,7 @@ educations:
     end-month: april-short
     end-year: "2024"
   - education-name: technical-programme
+    show: true
     school-name: "NTI-Gymnasiet Uppsala"
     ongoing: false
     start-month: august-short
@@ -61,14 +65,17 @@ educations:
     end-year: "2023"
 
 # prettier-ignore
+show-work-experiences: true
 work-experiences:
   - company-name: "Sustainable Action"
+    show: true
     role: sustainable-action-role
     start-year: "2025"
     start-month: february-short
     end-year: "2025"
     end-month: april-short
   - company-name: "Skatterättsligt Forum"
+    show: true
     role: skatterattsligt-forum-role
     ongoing: true
     start-month: august-short
@@ -76,11 +83,13 @@ work-experiences:
     end-month: may-short
     end-year: "2025"
   - company-name: "Hambergs Catering AB"
+    show: true
     role: hambergs-catering-role
     ongoing: true
     start-month: august-short
     start-year: "2022"
   - company-name: "Clarion Hotel Gillet"
+    show: false
     role: clarion-hotel-gillet-role
     ongoing: true
     start-month: august-short
@@ -88,15 +97,56 @@ work-experiences:
     end-month: may-short
     end-year: "2025"
   - company-name: "Flustret"
+    show: false
     role: flustret-role
     ongoing: false
     start-month: march-short
     start-year: "2024"
     end-month: january-short
     end-year: "2025"
+  - company-name: "Stockholm Live AB"
+    show: false
+    role: stockholm-live-role
+    ongoing: false
+    start-month: may-short
+    start-year: "2024"
+    end-month: july-short
+    end-year: "2024"
+  - company-name: "Orangeriet, Trattorian Sorellina"
+    show: false
+    role: orangeriet-role
+    ongoing: false
+    start-month: june-short
+    start-year: "2024"
+    end-month: june-short
+    end-year: "2024"
+  - company-name: private
+    show: false
+    role: private-role
+    ongoing: false
+    start-month: june-short
+    start-year: "2021"
+    end-month: february-short
+    end-year: "2023"
 
 # prettier-ignore
+show-projects: true
 projects:
+  - translated-project-name: tool-for-reports
+    description: tool-for-reports-description
+    ongoing: true
+    start-month: june-short
+    start-year: "2025"
+    tech-stack:
+      - tech-name: "PHP"
+      - tech-name: "Laravel"
+      - tech-name: "Jetstream"
+      - tech-name: "JavaScript"
+      - tech-name: "Tailwind"
+    links:
+      - link-text: website-link-text
+        link-url: "https://staging.festvaningsrapportering.cejie.se/"
+        svg: globe-svg
   - project-name: "Winterland"
     description: winterland-description
     date: "2019-2024"
@@ -348,6 +398,10 @@ techniques:
   - technique-name: "SCRUM"
   - technique-name: "Git"
   - technique-name: "C#"
+  - technique-name: "PHP"
+  - technique-name: "Laravel"
+  - technique-name: "Jetstream"
+  - technique-name: "Tailwind"
   - technique-name: "Unity"
   - technique-name: "WPF"
   - translated-technique-name: automatic-testing

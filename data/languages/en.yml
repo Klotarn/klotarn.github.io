@@ -5,6 +5,7 @@ work-experience-section-title: "Work Experience"
 education-section-title: "Education"
 techniques-section-title: "Skills"
 language-section-title: "Languages"
+interests-section-title: "Interests"
 
 # date variables
 ongoing: "Current"
@@ -34,6 +35,12 @@ skatterattsligt-forum-role: "Web Developer"
 sustainable-action-role: "Web Developer, unpaid internship"
 
 # projects
+tool-for-reports: "Beverage Consumption"
+tool-for-reports-description: >
+    (<u>Username</u>/<u>password</u> to test the tool: "<u>guest</u>"/"<u>guest</u>")<br><br>
+    A custom-built tool used by <strong>Hambergs Catering</strong> to centralize and streamline the tracking of beverage consumption at events.
+    I designed and developed the entire solution independently – from concept to production – working closely with Hambergs to ensure the functionality and user experience aligned with their needs.
+    The system is built to support multiple organizations/teams, making it easy to scale and offer the tool to additional clients in the future.
 bordsplaceringsgeneratorn-description: >
     A tool for teachers to generate seating arrangements for
     classes. The tool is a WPF application written in C# that uses
@@ -104,3 +111,9 @@ japanese-name: "Japanese"
 native: "Native"
 fluent: "Fluent"
 beginner: "Beginner"
+
+# interests
+mixology: "Mixology"
+drumming-and-songwriting: "Drumming and songwriting"
+programming: "Programming"
+gaming: "Gaming"

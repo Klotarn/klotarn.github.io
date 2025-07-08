@@ -3,7 +3,7 @@ contact-and-platforms-title: "Kontakt och plattformar"
 projects-section-title: "Projekt"
 work-experience-section-title: "Arbetslivserfarenhet"
 education-section-title: "Utbildning"
-techniques-section-title: "Kunskaper"
+techniques-section-title: "Kompetenser"
 language-section-title: "Språk"
 interests-section-title: "Intressen"
 
@@ -32,8 +32,16 @@ hambergs-catering-role: "Servitör, Bartender, Hovmästare"
 flustret-role: "Bartender"
 clarion-hotel-gillet-role: "Servitör, Bartender"
 skatterattsligt-forum-role: "Webbutvecklare"
+sustainable-action-role: "Webbutvecklare, obetald praktik"
 
 # projects
+tool-for-reports: "Dryckesåtgång"
+tool-for-reports-description: > 
+    (<u>Användarnamn</u>/<u>lösenord</u> för att testa verktyget: "<u>guest</u>"/"<u>guest</u>")<br><br>
+    Ett skräddarsytt verktyg som används av <strong>Hambergs Catering</strong> för att centralisera och effektivisera uppföljningen av dryckesåtgång vid evenemang.
+    Jag har utvecklat hela lösningen själv – från idé till färdig produkt – i nära dialog med Hambergs för att säkerställa att funktionalitet och användarflöde matchar deras behov.
+    Systemet är byggt för att stödja flera organisationer/team, vilket gör det enkelt att skala upp och erbjuda verktyget till fler kunder framöver.
+
 bordsplaceringsgeneratorn-description: >
     Ett verktyg för lärare för att generera bords&shy;placer&shy;ingar för
     klasser. Verktyget är ett WPF-program skrivet i C# som använder
