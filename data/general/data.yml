@@ -145,7 +145,7 @@ projects:
       - tech-name: "Tailwind"
     links:
       - link-text: website-link-text
-        link-url: "https://staging.festvaningsrapportering.cejie.se/"
+        link-url: "https://rapport.cejie.se/"
         svg: globe-svg
   - project-name: "Winterland"
     description: winterland-description
