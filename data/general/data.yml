@@ -411,20 +411,17 @@ projects:
 
 # prettier-ignore
 techniques:
-  - technique-name: "SCRUM"
-  - technique-name: "Git"
-  - technique-name: "C#"
   - technique-name: "PHP"
   - technique-name: "Laravel"
-  - technique-name: "Jetstream"
-  - technique-name: "Tailwind"
-  - technique-name: "Unity"
-  - technique-name: "WPF"
   - translated-technique-name: automatic-testing
   - technique-name: "Python"
+  - technique-name: "C#"
+  - technique-name: "SCRUM"
+  - technique-name: "Git"
+  - technique-name: "Tailwind"
+  - technique-name: "Unity"
+  - technique-name: "Jetstream"
   - technique-name: "Selenium"
-  - technique-name: "Playwright"
-  - technique-name: "FlaUI"
   - technique-name: "HTML"
   - technique-name: "CSS"
   - technique-name: "YAML"
