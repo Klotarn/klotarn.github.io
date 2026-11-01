@@ -39,10 +39,18 @@ interests:
 # prettier-ignore
 show-educations: true
 educations:
-  - education-name: business-a
-    show: false
+  - education-name: m-sc-in-engineering-in-it
+    show: true
     school-name: "Uppsala Universitet"
     ongoing: true
+    start-month: august-short
+    start-year: "2026"
+    end-month: june-short
+    end-year: "2031"
+  - education-name: business-administration-i
+    show: false
+    school-name: "Uppsala Universitet"
+    ongoing: false
     start-month: september-short
     start-year: "2025"
     end-month: january-short
