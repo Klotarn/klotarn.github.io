@@ -37,12 +37,20 @@ skatterattsligt-forum-role: "Webbutvecklare"
 sustainable-action-role: "Webbutvecklare, obetald praktik"
 
 # projects
-tool-for-reports: "Dryckesåtgång"
+tool-for-reports: "System för rapportering av dryckesåtgång"
 tool-for-reports-description: > 
     (<u>Användarnamn</u>/<u>lösenord</u> för att testa verktyget: "<u>guest</u>"/"<u>guest</u>")<br><br>
     Ett skräddarsytt verktyg som används av <strong>Hambergs Catering</strong> för att centralisera och effektivisera uppföljningen av dryckesåtgång vid evenemang.
     Jag har utvecklat hela lösningen själv – från idé till färdig produkt – i nära dialog med Hambergs för att säkerställa att funktionalitet och användarflöde matchar deras behov.
     Systemet är byggt för att stödja flera organisationer/team, vilket gör det enkelt att skala upp och erbjuda verktyget till fler kunder framöver.
+
+chatit-description: >
+    Ett chattprogram som använder sig av en klient-server-arkitektur. Programmet är skrivet i Python
+    och använder sockets för att kommunicera mellan klienter och servern. Programmet utvecklades som
+    ett skolprojekt under kursen "Introduktion till informationsteknologi" och valdes för att jag och
+    min projektpartner ville lära oss mer om nätverksprogrammering och multitrådning (multi-threading).
+    Programmet har stöd för att flera klienter kan ansluta till servern samtidigt och skicka meddelanden
+    till varandra i realtid.
 
 bordsplaceringsgeneratorn-description: >
     Ett verktyg för lärare för att generera bords&shy;placer&shy;ingar för

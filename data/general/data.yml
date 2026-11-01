@@ -163,6 +163,7 @@ projects:
       - link-text: website-link-text
         link-url: "https://rapport.cejie.se/"
         svg: globe-svg
+
   - project-name: "Winterland"
     description: winterland-description
     date: "2019-2024"
@@ -188,6 +189,22 @@ projects:
       - link-text: download-link-text
         link-url: "../files/winterland_installer.exe"
         svg: download-svg
+
+  - project-name: "ChatIT"
+    description: chatit-description
+    ongoing: false
+    start-year: "2026"
+    start-month: october-short
+    end-year: "2026"
+    end-month: october-short
+    tech-stack:
+      - tech-name: "Python"
+      - tech-name: "Multithreading"
+      - tech-name: "Socket Programming"
+    links:
+      - link-text: github-repository-link-text
+        link-url: "https://github.com/Klotarn/M6-Projekt"
+        svg: github-svg
 
   - project-name: "Sustainable Action Climate Coordination Tool"
     description: sustainable-action-climate-coordination-tool-description
@@ -310,9 +327,9 @@ projects:
       - link-text: github-repository-link-text
         link-url: "https://github.com/ntig-Uppsala/J.CAD-Florist"
         svg: github-svg
-      - link-text: website-link-text
-        link-url: "https://florista.ntig.dev/public/se/"
-        svg: globe-svg
+      # - link-text: website-link-text
+      #   link-url: "https://florista.ntig.dev/public/se/"
+      #   svg: globe-svg
 
   - project-name: "Il Forno Magico"
     description: il-forno-magico-description
@@ -339,9 +356,9 @@ projects:
       - link-text: github-repository-link-text
         link-url: "https://github.com/NTIG-Uppsala/TE4-JITS-Pizzeria"
         svg: github-svg
-      - link-text: website-link-text
-        link-url: "https://ilfornomagico.ntig.dev/"
-        svg: globe-svg
+      # - link-text: website-link-text
+      #   link-url: "https://ilfornomagico.ntig.dev/"
+      #   svg: globe-svg
 
   - project-name: "NTB Biluthyrning"
     description: ntb-biluthyrning-description
@@ -388,9 +405,9 @@ projects:
       - link-text: github-repository-link-text
         link-url: "https://github.com/NTIG-Uppsala/TE4-VALE-Biluthyrning"
         svg: github-svg
-      - link-text: website-link-text
-        link-url: "https://ntbbiluthyrning.ntig.dev/"
-        svg: globe-svg
+      # - link-text: website-link-text
+      #   link-url: "https://ntbbiluthyrning.ntig.dev/"
+      #   svg: globe-svg
 
   - project-name: "Skatterättsligt Forum"
     description: skatterattsligt-forum-description
