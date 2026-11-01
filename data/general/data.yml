@@ -83,7 +83,7 @@ educations:
 # prettier-ignore
 show-work-experiences: true
 work-experiences:
-  - company-name: "Sustainable Action"
+  - company-name: "Sustainable Action Foundation"
     show: true
     role: sustainable-action-role
     start-year: "2025"
@@ -93,11 +93,11 @@ work-experiences:
   - company-name: "Skatterättsligt Forum"
     show: true
     role: skatterattsligt-forum-role
-    ongoing: true
+    ongoing: false
     start-month: august-short
     start-year: "2023"
-    end-month: may-short
-    end-year: "2025"
+    end-month: october-short
+    end-year: "2026"
   - company-name: "Hambergs Catering AB"
     show: true
     role: hambergs-catering-role
